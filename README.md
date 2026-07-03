@@ -1,4 +1,8 @@
-# 👑 GrandGitMaster
+# ♛ GrandGitMaster
+
+*Like a chess Grandmaster — but for free tools. You wish it. We rank it. You click it.*
+
+**📱 Just want the app? → https://raw.githack.com/Yoktavya1990/GrandGitMaster/gh-pages/index.html** — open on your phone, "Add to Home Screen", done. No account, no install, no code.
 
 **The king of Git.** A second brain that collects Git repositories from anywhere — X.com, agents, files, you — runs every one of them through **the Ringer** (a transparent scoring pipeline), categorises them so rivals fight in the same ring, and **crowns the best repo per category**. The crowns update automatically as repos rise and fall.
 
