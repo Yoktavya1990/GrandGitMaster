@@ -36,6 +36,9 @@ jobs:
       - name: Pull X watchlist
         run: python -m grandgitmaster x pull || true
 
+      - name: Scouts (GitHub Trending + Hacker News, no keys needed)
+        run: python -m grandgitmaster scout || true
+
       - name: Sleuth repos merely named in tweets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

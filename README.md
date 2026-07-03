@@ -59,6 +59,18 @@ Tools your agents get: `best_repo`, `search_repos`, `top_repos`, `add_repo`, `in
 
 All your projects share one brain: the database lives at `data/ggm.db` (override with `GGM_DB=/path/to/ggm.db` to point every project and agent at the same file).
 
+## How new tools find their way in 🔭
+
+Five doors into the Ring, from fully automatic to one tap:
+
+1. **The scouts (automatic, no keys):** every cloud run, `ggm scout` sweeps **GitHub Trending** (what the world is starring today and this week) and **Hacker News** (what the internet's sharpest tool-finders are posting). Anything new walks straight into the Ring.
+2. **The X watchlist:** paste any X link into `seeds/x_watchlist.txt` — even from your phone — and the tweet's repos get pulled in (no X API key needed).
+3. **The sleuth:** tweets that only *name* a tool ("Alibaba open-sourced PageAgent") get their repo hunted down via GitHub search.
+4. **Full X auto-search** *(optional)*: add an `X_BEARER_TOKEN` secret and every viral tweet linking GitHub gets swept too.
+5. **You & your agents:** the app's 📥 button, `ggm add`, `ggm ingest`, or any MCP-connected agent can toss a find into the Ring anytime.
+
+However a tool arrives, it gets the exact same treatment: fight in the Ring, earn a rank, maybe take a crown.
+
 ## The X.com watcher 🐦
 
 Never trawl X for repos again. Three ways in, zero to full automation:
