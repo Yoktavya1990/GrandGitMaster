@@ -12,7 +12,7 @@ from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from grandgitmaster import categorize, db, export, github, ringer, xwatcher  # noqa: E402
+from grandgitmaster import categorize, db, export, github, ringer, scouts, xwatcher  # noqa: E402
 
 
 def fresh_con():
@@ -155,6 +155,48 @@ class TestPipeline(unittest.TestCase):
             ringer.run(con)
         r = db.all_repos(con)[0]
         self.assertEqual(r["status"], "gone")
+        os.unlink(path)
+
+
+class TestScouts(unittest.TestCase):
+    TRENDING_HTML = """
+    <article class="Box-row">
+      <h2 class="h3 lh-condensed">
+        <a href="/cool-org/hot-repo" data-hydro-click="x">cool-org / hot-repo</a>
+      </h2>
+    </article>
+    <article class="Box-row">
+      <h2 class="h3 lh-condensed"><a href="/dev/another.tool">dev / another.tool</a></h2>
+    </article>
+    <a href="/login?return_to=x">login</a>
+    """
+
+    def test_parse_trending(self):
+        self.assertEqual(scouts.parse_trending(self.TRENDING_HTML),
+                         ["cool-org/hot-repo", "dev/another.tool"])
+
+    def test_parse_hn_filters(self):
+        now = 1_000_000_000
+        payload = {"hits": [
+            {"points": 120, "created_at_i": now - 86400,
+             "url": "https://github.com/fresh/winner", "title": "Show HN"},
+            {"points": 3, "created_at_i": now - 86400,
+             "url": "https://github.com/too/quiet", "title": ""},
+            {"points": 500, "created_at_i": now - 90 * 86400,
+             "url": "https://github.com/way/old", "title": ""},
+            {"points": 80, "created_at_i": now - 3600, "url": "",
+             "title": "New tool", "story_text": "code at github.com/inline/mention"},
+        ]}
+        self.assertEqual(scouts.parse_hn(payload, min_points=10, now=now),
+                         ["fresh/winner", "inline/mention"])
+
+    def test_run_queues_new(self):
+        con, path = fresh_con()
+        with mock.patch.object(scouts, "SCOUTS",
+                               [("fake", lambda progress=None: ["a/b", "c/d", "a/b"])]):
+            out = scouts.run(con=con)
+        self.assertEqual(out["new_repos"], ["a/b", "c/d"])
+        self.assertEqual(db.all_repos(con)[0]["source"], "scout")
         os.unlink(path)
 
 

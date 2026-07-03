@@ -19,7 +19,7 @@ import argparse
 import os
 import sys
 
-from . import __version__, db, export, github, ringer, xwatcher
+from . import __version__, db, export, github, ringer, scouts, xwatcher
 
 
 def _p(msg=""):
@@ -103,6 +103,13 @@ def cmd_x(args):
         out = xwatcher.watch_once(query=args.query, con=con, progress=_p)
         _p("Scanned %d tweet(s): %d repo(s) found, %d new."
            % (out["tweets"], len(out["repos_found"]), len(out["new_repos"])))
+
+
+def cmd_scout(_args):
+    _p("🔭 Sending out the Grandmaster's scouts (GitHub Trending + Hacker News)…")
+    out = scouts.run(progress=_p)
+    if out["new_repos"]:
+        _p("Run `ggm ringer --pending` to put the recruits through the Ring.")
 
 
 def cmd_ringer(args):
@@ -211,6 +218,9 @@ def main(argv=None):
     p.set_defaults(fn=cmd_x)
     p = xsub.add_parser("watch", help="poll X search (X_BEARER_TOKEN)")
     p.add_argument("--query"); p.set_defaults(fn=cmd_x)
+
+    p = sub.add_parser("scout", help="auto-discover repos (Trending + Hacker News, no keys)")
+    p.set_defaults(fn=cmd_scout)
 
     p = sub.add_parser("ringer", help="enrich + score + crown")
     p.add_argument("--pending", action="store_true", help="only new repos")
