@@ -26,6 +26,10 @@ git clone https://github.com/Yoktavya1990/GrandGitMaster && cd GrandGitMaster
 
 ## The mobile app 📱
 
+**Hosted, nothing to run:** 👉 **https://yoktavya1990.github.io/GrandGitMaster/** — open it on your phone, **Add to Home Screen**, done. It reads the leaderboard the cloud Ringer refreshes every 6 hours, and its ＋ buttons open GitHub's mobile editor on the seed files — saving an edit there re-triggers the Ringer automatically. Fully handheld: find a repo link on X, paste it into the watchlist from your phone, and the kingdom re-ranks itself.
+
+### Self-hosted mode (optional)
+
 `./ggm serve`, open `http://<machine-ip>:8477` on your phone, hit **Add to Home Screen**. You now have a full-screen installable app: search "scraping" or "agents", see champions with crowns, score meters, medals, and one-tap ingest — paste any GitHub or X link into the bottom bar and it enters the pipeline. Runs identically on a $5 VPS for access from anywhere.
 
 ## Your agents' second brain 🧠 (MCP)
