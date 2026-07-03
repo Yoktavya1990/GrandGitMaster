@@ -1,0 +1,32 @@
+# One-click cloud/local deploy:  docker compose up -d
+# App: http://localhost:8477  (install on your phone via "Add to Home Screen")
+services:
+  grandgitmaster:
+    build: .
+    ports:
+      - "8477:8477"
+    volumes:
+      - ggm-data:/data
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}      # optional: 5000 GitHub req/h
+      - X_BEARER_TOKEN=${X_BEARER_TOKEN:-}  # optional: X search watcher
+    restart: unless-stopped
+
+  # hourly: pull X watchlist + run the Ringer
+  ringer-cron:
+    build: .
+    volumes:
+      - ggm-data:/data
+    environment:
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      - X_BEARER_TOKEN=${X_BEARER_TOKEN:-}
+    entrypoint: >
+      sh -c 'while true; do
+        python -m grandgitmaster x pull || true;
+        python -m grandgitmaster ringer --pending || true;
+        sleep 3600;
+      done'
+    restart: unless-stopped
+
+volumes:
+  ggm-data:
