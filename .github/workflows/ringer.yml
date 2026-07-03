@@ -42,10 +42,14 @@ jobs:
         run: python -m grandgitmaster x sleuth || true
 
       - name: X search watcher (only if token configured)
-        if: ${{ secrets.X_BEARER_TOKEN != '' }}
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python -m grandgitmaster x watch || true
+        run: |
+          if [ -n "$X_BEARER_TOKEN" ]; then
+            python -m grandgitmaster x watch || true
+          else
+            echo "No X_BEARER_TOKEN secret set — skipping X search mode"
+          fi
 
       - name: Run the Ringer
         env:
