@@ -26,7 +26,9 @@ git clone https://github.com/Yoktavya1990/GrandGitMaster && cd GrandGitMaster
 
 ## The mobile app 📱
 
-**Hosted, nothing to run:** 👉 **https://yoktavya1990.github.io/GrandGitMaster/** — open it on your phone, **Add to Home Screen**, done. It reads the leaderboard the cloud Ringer refreshes every 6 hours, and its ＋ buttons open GitHub's mobile editor on the seed files — saving an edit there re-triggers the Ringer automatically. Fully handheld: find a repo link on X, paste it into the watchlist from your phone, and the kingdom re-ranks itself.
+**Hosted, nothing to run:** 👉 **https://raw.githack.com/Yoktavya1990/GrandGitMaster/gh-pages/index.html** — open it on your phone, **Add to Home Screen**, done.
+
+*(Prefer the cleaner `https://yoktavya1990.github.io/GrandGitMaster/` URL? One tap enables it: repo **Settings → Pages → Source: Deploy from a branch → `gh-pages`**. The deploy workflow keeps that branch fresh either way.)* It reads the leaderboard the cloud Ringer refreshes every 6 hours, and its ＋ buttons open GitHub's mobile editor on the seed files — saving an edit there re-triggers the Ringer automatically. Fully handheld: find a repo link on X, paste it into the watchlist from your phone, and the kingdom re-ranks itself.
 
 ### Self-hosted mode (optional)
 
