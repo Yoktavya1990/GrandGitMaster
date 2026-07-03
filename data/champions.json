@@ -1,57 +1,1114 @@
 {
-  "generated_at": "2026-07-03 06:56 UTC",
+  "generated_at": "2026-07-03 11:26 UTC",
   "stats": {
-    "total": 4,
-    "scored": 0,
-    "pending": 4,
-    "from_x": 3
+    "total": 35,
+    "scored": 35,
+    "pending": 0,
+    "from_x": 2
   },
-  "champions": [],
+  "champions": [
+    {
+      "full_name": "open-webui/open-webui",
+      "display_name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ],
+      "stars": 143988,
+      "forks": 20790,
+      "open_issues": 286,
+      "license": "Other",
+      "homepage": "https://openwebui.com",
+      "archived": 0,
+      "created_at": "2023-10-06T22:08:27Z",
+      "pushed_at": "2026-07-02T17:38:23Z",
+      "category": "llm-tools",
+      "score": 100.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 15.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Other licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.418168,
+      "enriched_at": 1783077987.1952953,
+      "error": null
+    },
+    {
+      "full_name": "unclecode/crawl4ai",
+      "display_name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "topics": [],
+      "stars": 70805,
+      "forks": 7278,
+      "open_issues": 115,
+      "license": "Apache-2.0",
+      "homepage": "https://crawl4ai.com",
+      "archived": 0,
+      "created_at": "2024-05-09T09:48:50Z",
+      "pushed_at": "2026-07-03T10:37:40Z",
+      "category": "scraping-data",
+      "score": 96.0,
+      "breakdown": {
+        "popularity": 24.3,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 9.7,
+        "docs": 12.0,
+        "one_click": 15.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Apache-2.0 licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4196637,
+      "enriched_at": 1783077988.1653345,
+      "error": null
+    },
+    {
+      "full_name": "vercel/next.js",
+      "display_name": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "topics": [
+        "blog",
+        "browser",
+        "compiler",
+        "components",
+        "hybrid",
+        "nextjs",
+        "node",
+        "react",
+        "server-rendering",
+        "ssg",
+        "static",
+        "static-site-generator",
+        "universal",
+        "vercel"
+      ],
+      "stars": 140318,
+      "forks": 31296,
+      "open_issues": 4162,
+      "license": "MIT",
+      "homepage": "https://nextjs.org",
+      "archived": 0,
+      "created_at": "2016-10-05T23:32:51Z",
+      "pushed_at": "2026-07-03T11:01:08Z",
+      "category": "web-dev",
+      "score": 95.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 10.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4236212,
+      "enriched_at": 1783077990.7126853,
+      "error": null
+    },
+    {
+      "full_name": "pytorch/pytorch",
+      "display_name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "topics": [
+        "autograd",
+        "deep-learning",
+        "gpu",
+        "machine-learning",
+        "neural-network",
+        "numpy",
+        "python",
+        "tensor"
+      ],
+      "stars": 101344,
+      "forks": 28240,
+      "open_issues": 18273,
+      "license": "Other",
+      "homepage": "https://pytorch.org",
+      "archived": 0,
+      "created_at": "2016-08-13T05:26:41Z",
+      "pushed_at": "2026-07-03T10:58:51Z",
+      "category": "data-ml",
+      "score": 95.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 10.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 15.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Other licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.428527,
+      "enriched_at": 1783077994.5767972,
+      "error": null
+    },
+    {
+      "full_name": "junegunn/fzf",
+      "display_name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": ":cherry_blossom: A command-line fuzzy finder",
+      "language": "Go",
+      "topics": [
+        "bash",
+        "cli",
+        "fish",
+        "fzf",
+        "go",
+        "neovim",
+        "tmux",
+        "unix",
+        "vim",
+        "zsh"
+      ],
+      "stars": 81451,
+      "forks": 2803,
+      "open_issues": 325,
+      "license": "MIT",
+      "homepage": "https://junegunn.github.io/fzf/",
+      "archived": 0,
+      "created_at": "2013-10-23T16:04:23Z",
+      "pushed_at": "2026-07-03T01:20:13Z",
+      "category": "devtools",
+      "score": 93.2,
+      "breakdown": {
+        "popularity": 24.6,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 8.6,
+        "docs": 15.0,
+        "one_click": 10.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4219863,
+      "enriched_at": 1783077989.674546,
+      "error": null
+    },
+    {
+      "full_name": "browser-use/browser-use",
+      "display_name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "browser-use",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "stars": 102358,
+      "forks": 11350,
+      "open_issues": 278,
+      "license": "MIT",
+      "homepage": "https://browser-use.com",
+      "archived": 0,
+      "created_at": "2024-10-31T16:00:56Z",
+      "pushed_at": "2026-07-02T00:43:57Z",
+      "category": "ai-agents",
+      "score": 93.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 8.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4135768,
+      "enriched_at": 1783077984.270421,
+      "error": null
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "display_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "stars": 195003,
+      "forks": 59021,
+      "open_issues": 1442,
+      "license": "Other",
+      "homepage": "https://n8n.io",
+      "archived": 0,
+      "created_at": "2019-06-22T09:24:21Z",
+      "pushed_at": "2026-07-03T11:16:10Z",
+      "category": "automation",
+      "score": 90.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 5.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Other licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.426822,
+      "enriched_at": 1783077993.4447608,
+      "error": null
+    },
+    {
+      "full_name": "facebook/react-native",
+      "display_name": "react/react-native",
+      "url": "https://github.com/react/react-native",
+      "description": "A framework for building native applications using React",
+      "language": "C++",
+      "topics": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "ios",
+        "mobile",
+        "mobile-development",
+        "react",
+        "react-native"
+      ],
+      "stars": 126141,
+      "forks": 25174,
+      "open_issues": 1035,
+      "license": "MIT",
+      "homepage": "https://reactnative.dev",
+      "archived": 0,
+      "created_at": "2015-01-09T18:10:16Z",
+      "pushed_at": "2026-07-03T11:23:42Z",
+      "category": "mobile",
+      "score": 88.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 3.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4261396,
+      "enriched_at": 1783077992.983801,
+      "error": null
+    },
+    {
+      "full_name": "awesome-selfhosted/awesome-selfhosted",
+      "display_name": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "language": null,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "cloud",
+        "free-software",
+        "hosting",
+        "privacy",
+        "self-hosted",
+        "selfhosted"
+      ],
+      "stars": 302522,
+      "forks": 14095,
+      "open_issues": 0,
+      "license": "Other",
+      "homepage": "https://awesome-selfhosted.net/",
+      "archived": 0,
+      "created_at": "2015-06-01T02:33:17Z",
+      "pushed_at": "2026-07-02T21:57:34Z",
+      "category": "self-hosted",
+      "score": 85.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 0.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Other licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4316392,
+      "enriched_at": 1783077996.5430455,
+      "error": null
+    },
+    {
+      "full_name": "ebookfoundation/free-programming-books",
+      "display_name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "language": "Python",
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "stars": 391200,
+      "forks": 66467,
+      "open_issues": 77,
+      "license": "CC-BY-4.0",
+      "homepage": "https://ebookfoundation.github.io/free-programming-books/",
+      "archived": 0,
+      "created_at": "2013-10-11T06:50:37Z",
+      "pushed_at": "2026-06-30T19:47:56Z",
+      "category": "learning",
+      "score": 85.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 0.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc CC-BY-4.0 licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4343436,
+      "enriched_at": 1783077997.9633298,
+      "error": null
+    },
+    {
+      "full_name": "public-apis/public-apis",
+      "display_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "stars": 446230,
+      "forks": 48982,
+      "open_issues": 1485,
+      "license": "MIT",
+      "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+      "archived": 0,
+      "created_at": "2016-03-20T23:49:42Z",
+      "pushed_at": "2026-06-30T20:55:54Z",
+      "category": "apis",
+      "score": 85.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 0.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783077958.4120018,
+      "enriched_at": 1783077983.2525806,
+      "error": null
+    },
+    {
+      "full_name": "indu-shekhar/buyhatke",
+      "display_name": "indu-shekhar/Buyhatke",
+      "url": "https://github.com/indu-shekhar/Buyhatke",
+      "description": null,
+      "language": null,
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "license": null,
+      "homepage": null,
+      "archived": 0,
+      "created_at": "2025-10-29T09:22:51Z",
+      "pushed_at": "2025-10-29T09:29:38Z",
+      "category": "other",
+      "score": 24.5,
+      "breakdown": {
+        "popularity": 1.5,
+        "freshness": 8.0,
+        "maintenance": 15.0,
+        "community": 0.0,
+        "docs": 0.0,
+        "one_click": 0.0
+      },
+      "verdict": "\ud83e\uddea Experimental",
+      "flags": [
+        "\ud83d\udeab No license \u2014 careful using this commercially"
+      ],
+      "status": "scored",
+      "source": "x-sleuth",
+      "source_ref": "2072221198809993626",
+      "first_seen": 1783077982.3184984,
+      "enriched_at": 1783078000.8022335,
+      "error": null
+    }
+  ],
   "categories": {
-    "uncategorised": [
+    "ai-agents": [
       {
-        "full_name": "public-apis/public-apis",
-        "url": "https://github.com/public-apis/public-apis",
+        "full_name": "browser-use/browser-use",
+        "url": "https://github.com/browser-use/browser-use",
+        "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+        "score": 93.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 102358,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "crewaiinc/crewai",
+        "url": "https://github.com/crewAIInc/crewAI",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+        "score": 86.4,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 54828,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "huginn/huginn",
+        "url": "https://github.com/huginn/huginn",
+        "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+        "score": 84.6,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 49561,
+        "language": "Ruby",
+        "status": "scored"
+      },
+      {
+        "full_name": "microsoft/autogen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": "A programming framework for agentic AI",
+        "score": 78.8,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\ud83d\udcdc CC-BY-4.0 licensed"
+        ],
+        "stars": 59461,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "grooosy/pageagent",
+        "url": "https://github.com/grooosy/pageagent",
         "description": null,
-        "score": 0.0,
-        "verdict": "",
-        "flags": [],
-        "stars": 0,
-        "language": null,
-        "status": "pending"
+        "score": 31.7,
+        "verdict": "\ud83e\uddea Experimental",
+        "flags": [
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 1,
+        "language": "TypeScript",
+        "status": "scored"
+      }
+    ],
+    "devtools": [
+      {
+        "full_name": "junegunn/fzf",
+        "url": "https://github.com/junegunn/fzf",
+        "description": ":cherry_blossom: A command-line fuzzy finder",
+        "score": 93.2,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 81451,
+        "language": "Go",
+        "status": "scored"
+      },
+      {
+        "full_name": "cli/cli",
+        "url": "https://github.com/cli/cli",
+        "description": "GitHub\u2019s official command line tool",
+        "score": 90.1,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 45101,
+        "language": "Go",
+        "status": "scored"
+      },
+      {
+        "full_name": "sharkdp/bat",
+        "url": "https://github.com/sharkdp/bat",
+        "description": "A cat(1) clone with wings.",
+        "score": 83.9,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 59545,
+        "language": "Rust",
+        "status": "scored"
+      },
+      {
+        "full_name": "danielmiessler/seclists",
+        "url": "https://github.com/danielmiessler/SecLists",
+        "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+        "score": 81.3,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 71893,
+        "language": "PHP",
+        "status": "scored"
       },
       {
         "full_name": "ifixai-ai/ifixai",
-        "url": "https://github.com/ifixai-ai/ifixai",
-        "description": null,
-        "score": 0.0,
-        "verdict": "",
-        "flags": [],
-        "stars": 0,
-        "language": null,
-        "status": "pending"
+        "url": "https://github.com/ifixai-ai/iFixAi",
+        "description": "Catch your AI's mistakes and blind spots before your customers or regulators do. iFixAi runs 45 inspections, 32 graded core plus 13 extended for frontier risks like sabotage, sandbagging, and oversight evasion. It returns a letter grade in under 5 minutes. Industry and model agnostic.",
+        "score": 73.2,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 985,
+        "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "llm-tools": [
+      {
+        "full_name": "open-webui/open-webui",
+        "url": "https://github.com/open-webui/open-webui",
+        "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "score": 100.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 143988,
+        "language": "Python",
+        "status": "scored"
       },
       {
         "full_name": "ollama/ollama",
         "url": "https://github.com/ollama/ollama",
-        "description": null,
-        "score": 0.0,
-        "verdict": "",
-        "flags": [],
-        "stars": 0,
-        "language": null,
-        "status": "pending"
+        "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+        "score": 93.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 175354,
+        "language": "Go",
+        "status": "scored"
+      },
+      {
+        "full_name": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "description": "LLM inference in C/C++",
+        "score": 92.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 119116,
+        "language": "C++",
+        "status": "scored"
+      },
+      {
+        "full_name": "langchain-ai/langchain",
+        "url": "https://github.com/langchain-ai/langchain",
+        "description": "The agent engineering platform.",
+        "score": 87.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 140818,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "significant-gravitas/autogpt",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "score": 85.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 185307,
+        "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "web-dev": [
+      {
+        "full_name": "vercel/next.js",
+        "url": "https://github.com/vercel/next.js",
+        "description": "The React Framework",
+        "score": 95.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 140318,
+        "language": "JavaScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "immich-app/immich",
+        "url": "https://github.com/immich-app/immich",
+        "description": "High performance self-hosted photo and video management solution.",
+        "score": 94.4,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc AGPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 105168,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "facebook/react",
+        "url": "https://github.com/react/react",
+        "description": "The library for web and native user interfaces.",
+        "score": 88.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 246203,
+        "language": "JavaScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "codecrafters-io/build-your-own-x",
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "description": "Master programming by recreating your favorite technologies from scratch.",
+        "score": 78.0,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 522057,
+        "language": "Markdown",
+        "status": "scored"
       },
       {
         "full_name": "louisfb01/start-ai-engineering",
         "url": "https://github.com/louisfb01/start-ai-engineering",
-        "description": null,
-        "score": 0.0,
-        "verdict": "",
-        "flags": [],
-        "stars": 0,
+        "description": "A complete guide to start and improve in AI engineering in 2026 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques!",
+        "score": 52.8,
+        "verdict": "\ud83e\udd49 Decent",
+        "flags": [
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 254,
         "language": null,
-        "status": "pending"
+        "status": "scored"
+      }
+    ],
+    "scraping-data": [
+      {
+        "full_name": "unclecode/crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+        "score": 96.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 70805,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright",
+        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+        "score": 87.3,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 92145,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "scrapy/scrapy",
+        "url": "https://github.com/scrapy/scrapy",
+        "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+        "score": 87.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc BSD-3-Clause licensed"
+        ],
+        "stars": 62876,
+        "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "self-hosted": [
+      {
+        "full_name": "awesome-selfhosted/awesome-selfhosted",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "score": 85.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 302522,
+        "language": null,
+        "status": "scored"
+      },
+      {
+        "full_name": "bitwarden/server",
+        "url": "https://github.com/bitwarden/server",
+        "description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+        "score": 81.5,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 19330,
+        "language": "C#",
+        "status": "scored"
+      },
+      {
+        "full_name": "sadservers/sadservers",
+        "url": "https://github.com/SadServers/sadservers",
+        "description": "SadServers: Linux & DevOps Troubleshooting Scenarios SaaS",
+        "score": 68.3,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 2848,
+        "language": "HCL",
+        "status": "scored"
+      }
+    ],
+    "data-ml": [
+      {
+        "full_name": "pytorch/pytorch",
+        "url": "https://github.com/pytorch/pytorch",
+        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "score": 95.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 101344,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "pandas-dev/pandas",
+        "url": "https://github.com/pandas-dev/pandas",
+        "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+        "score": 86.5,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc BSD-3-Clause licensed"
+        ],
+        "stars": 49116,
+        "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "learning": [
+      {
+        "full_name": "ebookfoundation/free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "description": ":books: Freely available programming books",
+        "score": 85.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc CC-BY-4.0 licensed"
+        ],
+        "stars": 391200,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "sindresorhus/awesome",
+        "url": "https://github.com/sindresorhus/awesome",
+        "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+        "score": 82.0,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc CC0-1.0 licensed"
+        ],
+        "stars": 481093,
+        "language": null,
+        "status": "scored"
+      }
+    ],
+    "mobile": [
+      {
+        "full_name": "facebook/react-native",
+        "url": "https://github.com/react/react-native",
+        "description": "A framework for building native applications using React",
+        "score": 88.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 126141,
+        "language": "C++",
+        "status": "scored"
+      },
+      {
+        "full_name": "flutter/flutter",
+        "url": "https://github.com/flutter/flutter",
+        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "score": 85.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc BSD-3-Clause licensed"
+        ],
+        "stars": 177609,
+        "language": "Dart",
+        "status": "scored"
+      }
+    ],
+    "apis": [
+      {
+        "full_name": "public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis",
+        "description": "A collective list of free APIs",
+        "score": 85.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 446230,
+        "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "automation": [
+      {
+        "full_name": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "score": 90.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 195003,
+        "language": "TypeScript",
+        "status": "scored"
+      }
+    ],
+    "other": [
+      {
+        "full_name": "indu-shekhar/buyhatke",
+        "url": "https://github.com/indu-shekhar/Buyhatke",
+        "description": null,
+        "score": 24.5,
+        "verdict": "\ud83e\uddea Experimental",
+        "flags": [
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 1,
+        "language": null,
+        "status": "scored"
       }
     ]
   }
