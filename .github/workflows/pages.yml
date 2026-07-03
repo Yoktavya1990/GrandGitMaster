@@ -1,6 +1,7 @@
-# Deploys the cloud edition of the app (web/) to GitHub Pages.
-# `enablement: true` auto-creates the Pages site on first run — no manual
-# settings step needed. App URL: https://<owner>.github.io/GrandGitMaster/
+# Publishes the cloud edition of the app (web/) by force-pushing it to the
+# gh-pages branch. Creating a gh-pages branch auto-enables GitHub Pages, so
+# this needs no manual settings step and no special API permissions.
+# App URL: https://<owner>.github.io/GrandGitMaster/
 name: Deploy app to Pages
 
 on:
@@ -10,9 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -21,16 +20,18 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: web/
-      - id: deployment
-        uses: actions/deploy-pages@v4
+
+      - name: Publish web/ to gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd web
+          touch .nojekyll
+          git init -b gh-pages
+          git config user.name "pages[bot]"
+          git config user.email "pages@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy app $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
