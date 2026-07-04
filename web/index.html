@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0d1117">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='72' font-size='64' text-anchor='middle'%3E%E2%99%9B%3C/text%3E%3C/svg%3E">
-<title>GrandGitMaster — free tools, ranked by the Grandmaster</title>
+<title>GrandGitMaster — free tools & money moves, ranked by the Grandmaster</title>
 <style>
 :root{
   --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e6edf3;
@@ -18,11 +18,15 @@
 *{box-sizing:border-box;margin:0}
 body{background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
   padding-bottom:env(safe-area-inset-bottom)}
-header{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 16px 10px;
-  border-bottom:1px solid var(--border)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 16px 8px;border-bottom:1px solid var(--border)}
 h1{font-size:21px;display:flex;align-items:baseline;gap:8px;letter-spacing:.3px}
 h1 .crown{font-size:24px}
 h1 small{color:var(--dim);font-size:12px;font-weight:400}
+/* top tabs */
+#tabs{display:flex;gap:8px;margin-top:12px}
+.tab{flex:1;text-align:center;padding:11px;border-radius:12px;border:1px solid var(--border);
+  background:var(--panel);color:var(--dim);font-size:14.5px;font-weight:700;cursor:pointer}
+.tab.on{background:var(--gold);color:#1f2328;border-color:var(--gold)}
 #search{width:100%;margin-top:10px;padding:13px 15px;border-radius:14px;border:1px solid var(--border);
   background:var(--panel);color:var(--text);font-size:16px;outline:none}
 #search:focus{border-color:var(--gold)}
@@ -31,171 +35,169 @@ h1 small{color:var(--dim);font-size:12px;font-weight:400}
 .chip{flex:0 0 auto;padding:6px 12px;border-radius:999px;border:1px solid var(--border);
   background:var(--panel);color:var(--dim);font-size:13px;cursor:pointer;white-space:nowrap}
 .chip.on{background:var(--gold);color:#1f2328;border-color:var(--gold);font-weight:600}
-main{padding:14px 16px 96px;max-width:720px;margin:0 auto}
+main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
 #stats{color:var(--dim);font-size:12px;margin:0 0 10px}
-/* wish grid */
-#wishes{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:4px 0 18px}
-.wish{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:14px 12px;
-  cursor:pointer;text-align:left;font-size:14.5px;line-height:1.35;color:var(--text)}
-.wish b{display:block;font-size:22px;margin-bottom:4px}
-.wish:active{border-color:var(--gold)}
-.hall{font-size:15px;font-weight:700;color:var(--gold);margin:14px 0 10px;letter-spacing:.5px}
-/* cards */
-.card{background:var(--panel);border:1px solid var(--border);border-radius:16px;
-  padding:16px 14px 14px;margin-bottom:14px;position:relative}
-.card.champ{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
-.crownbadge{position:absolute;top:-12px;right:14px;background:var(--gold);color:#1f2328;
-  font-size:11px;font-weight:800;padding:3px 10px;border-radius:999px;letter-spacing:.4px}
-.tname{font-weight:700;font-size:18px}
-.tsub{color:var(--dim);font-size:11.5px;word-break:break-all}
-.tdesc{color:var(--dim);font-size:14px;margin:6px 0 10px}
-.catline{font-size:12.5px;color:var(--dim);margin-bottom:10px}
+.hall{font-size:15px;font-weight:700;color:var(--gold);margin:14px 0 10px;letter-spacing:.3px}
+.intro{color:var(--dim);font-size:13.5px;margin:2px 0 14px;line-height:1.55}
+/* money-move cards */
+.move{background:var(--panel);border:1px solid var(--border);border-radius:18px;margin-bottom:14px;overflow:hidden}
+.move summary{list-style:none;cursor:pointer;padding:16px 14px;display:flex;gap:12px;align-items:flex-start}
+.move summary::-webkit-details-marker{display:none}
+.move .mi{font-size:32px;line-height:1}
+.move .mt{font-weight:800;font-size:17px}
+.move .mh{color:var(--dim);font-size:13.5px;margin-top:3px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.badge{font-size:11.5px;border-radius:999px;padding:3px 9px;font-weight:600}
+.b-earn{background:rgba(63,185,80,.15);color:var(--green);border:1px solid rgba(63,185,80,.4)}
+.b-phone{background:rgba(88,166,255,.15);color:var(--accent);border:1px solid rgba(88,166,255,.4)}
+.b-level{background:var(--bg);color:var(--dim);border:1px solid var(--border)}
+.chev{margin-left:auto;color:var(--dim);font-size:20px;transition:transform .2s}
+.move[open] .chev{transform:rotate(90deg)}
+.mbody{padding:0 14px 16px;border-top:1px solid var(--border);margin-top:2px}
+.steps{list-style:none;counter-reset:s;margin:14px 0 6px;padding:0}
+.steps li{counter-increment:s;position:relative;padding:6px 0 6px 34px;font-size:14px;color:var(--text)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:6px;width:22px;height:22px;border-radius:50%;
+  background:var(--gold);color:#1f2328;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.freenote{font-size:12.5px;color:var(--dim);background:var(--bg);border:1px solid var(--border);
+  border-radius:12px;padding:9px 11px;margin:10px 0}
+.toolhead{font-size:12.5px;font-weight:700;color:var(--gold);margin:14px 0 8px;text-transform:uppercase;letter-spacing:.5px}
+/* tool cards */
+.card{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:12px;margin-bottom:10px;position:relative}
+.card.champ{border-color:var(--gold)}
+.crownbadge{position:absolute;top:-10px;right:12px;background:var(--gold);color:#1f2328;
+  font-size:10px;font-weight:800;padding:2px 9px;border-radius:999px;letter-spacing:.3px}
+.tname{font-weight:700;font-size:16px}
+.tsub{color:var(--dim);font-size:11px;word-break:break-all}
+.tdesc{color:var(--dim);font-size:13.5px;margin:5px 0 9px}
+.catline{font-size:12px;color:var(--dim);margin-bottom:9px}
 .scorebar{display:flex;align-items:center;gap:10px}
-.meter{flex:1;height:9px;border-radius:5px;background:var(--border);overflow:hidden}
+.meter{flex:1;height:8px;border-radius:5px;background:var(--border);overflow:hidden}
 .meter i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,#f85149,var(--gold),var(--green))}
-.score{font-weight:800;font-variant-numeric:tabular-nums;min-width:44px;text-align:right}
-.rank{font-size:13.5px;margin-top:6px;font-weight:600}
-.flags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
-.flag{font-size:11.5px;background:var(--bg);border:1px solid var(--border);
-  border-radius:999px;padding:3px 9px;color:var(--dim)}
-.btns{display:flex;gap:8px;margin-top:12px}
-.btns a{flex:1;text-align:center;padding:11px 6px;border-radius:12px;text-decoration:none;
-  font-weight:700;font-size:13.5px}
+.score{font-weight:800;font-variant-numeric:tabular-nums;min-width:42px;text-align:right}
+.rank{font-size:13px;margin-top:5px;font-weight:600}
+.flags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.flag{font-size:11px;background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:3px 8px;color:var(--dim)}
+.btns{display:flex;gap:7px;margin-top:11px}
+.btns a{flex:1;text-align:center;padding:10px 5px;border-radius:11px;text-decoration:none;font-weight:700;font-size:13px}
 .btn-go{background:var(--gold);color:#1f2328}
-.btn-ghost{border:1px solid var(--border);color:var(--text);background:var(--bg)}
+.btn-ghost{border:1px solid var(--border);color:var(--text);background:var(--panel)}
 .empty{color:var(--dim);text-align:center;padding:40px 20px;line-height:1.7}
+.wishrow .card{background:var(--panel)}
 .pending{opacity:.6}
-/* how it works */
-details#how{margin:6px 0 16px;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:12px 14px}
-details#how summary{cursor:pointer;font-weight:700;font-size:14px}
-details#how p{color:var(--dim);font-size:13.5px;margin-top:8px;line-height:1.6}
 #addbar{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));
   background:var(--bg);border-top:1px solid var(--border)}
 #addbar a{flex:1;text-align:center;padding:12px;border-radius:12px;text-decoration:none;font-weight:700;font-size:13.5px}
+.btn-go2{background:var(--gold);color:#1f2328}
 </style>
 </head>
 <body>
 <header>
-  <h1><span class="crown">♛</span> GrandGitMaster <small>free tools, ranked. you click, it works.</small></h1>
-  <input id="search" type="search" autocomplete="off"
-    placeholder="Say it in your words… 'make AI videos', 'clone a voice', 'be hackerman'">
-  <div id="chips"></div>
+  <h1><span class="crown">♛</span> GrandGitMaster <small>you wish it · we rank it · you cash in</small></h1>
+  <div id="tabs">
+    <div class="tab on" data-tab="money">💰 Money Moves</div>
+    <div class="tab" data-tab="tools">🧰 Browse tools</div>
+  </div>
+  <input id="search" type="search" autocomplete="off" style="display:none"
+    placeholder="Say it your way… 'make AI videos', 'clone a voice', 'be hackerman'">
+  <div id="chips" style="display:none"></div>
 </header>
 <main>
   <div id="stats"></div>
-  <details id="how">
-    <summary>🥊 How do we pick the best?</summary>
-    <p>Every tool fights in <b>the Ring</b>. We ask 6 simple questions: Do people love it? Is it alive?
-    Is somebody taking care of it? Do others build on it? Will a normal human understand it?
-    And most important — <b>can you run it with one click?</b> Add it up and you get the
-    Grandmaster Score out of 100. The strongest tool in each arena wears the crown 👑 —
-    and loses it the moment something better shows up. No ads, no pay-to-win. Just the board.</p>
-  </details>
-  <div id="wishes"></div>
-  <div id="list"><div class="empty">Setting up the board…</div></div>
+  <div id="view"><div class="empty">Setting up the board…</div></div>
 </main>
 <div id="addbar">
-  <a class="btn-go" id="addlink" target="_blank" rel="noopener">📥 Found a tool on X? Toss it in the Ring</a>
+  <a class="btn-go2" id="addlink" target="_blank" rel="noopener">📥 Found a tool on X? Toss it in the Ring</a>
 </div>
+
+<script src="playbooks.js"></script>
 <script>
-// ————— data source: the leaderboard the cloud updates every 6 hours —————
 const REPO = "Yoktavya1990/GrandGitMaster";
 const DATA = `https://raw.githubusercontent.com/${REPO}/main/data/champions.json`;
 document.getElementById("addlink").href = `https://github.com/${REPO}/edit/main/seeds/x_watchlist.txt`;
 
-// ————— plain-language dictionary: no coder-speak past this line —————
 const ARENAS = {
-  "ai-media":      {emoji:"🎬", name:"Make AI images & videos", blurb:"Pictures, videos and voices made by AI — the ComfyUI & video-magic world."},
-  "ai-agents":     {emoji:"🤖", name:"AI that works for you",   blurb:"Little AI workers that browse, click and do tasks so you don't have to."},
-  "llm-tools":     {emoji:"🧠", name:"Your own ChatGPT",        blurb:"Chat AIs that run on YOUR machine. Private, free, yours."},
-  "security":      {emoji:"🕶️", name:"Hackerman toolkit",       blurb:"The real tools security pros use. With great power… you know the rest."},
-  "self-hosted":   {emoji:"🏠", name:"Your private cloud",      blurb:"Photos, files, streaming — hosted by you, not Big Tech."},
-  "automation":    {emoji:"🦾", name:"Robots do your chores",   blurb:"Connect your apps so boring stuff happens automatically."},
-  "web-dev":       {emoji:"🌐", name:"Build a website",         blurb:"Everything for making things that live on the internet."},
-  "mobile":        {emoji:"📱", name:"Make a phone app",        blurb:"Build apps for your phone without ten years of study."},
-  "scraping-data": {emoji:"🕸️", name:"Grab stuff from websites",blurb:"Pull info out of any website, automatically."},
-  "apis":          {emoji:"🍬", name:"Free data & goodies",     blurb:"Giant piles of free data your projects can snack on."},
-  "data-ml":       {emoji:"📊", name:"Number-crunching brains", blurb:"The engines behind AI and serious data work."},
-  "devtools":      {emoji:"🧰", name:"Power-ups",               blurb:"Tools that make every other tool nicer to use."},
-  "learning":      {emoji:"🎓", name:"Learn anything, free",    blurb:"Free books, courses and treasure maps for any skill."},
-  "games":         {emoji:"🎮", name:"Games & fun",             blurb:"Play, build and tinker."},
-  "other":         {emoji:"🎁", name:"Wild cards",              blurb:"Interesting finds that don't fit a box… yet."},
-  "uncategorised": {emoji:"⏳", name:"Waiting for the Ring",    blurb:"Fresh catches queued for their first fight."},
+  "ai-media":{emoji:"🎬",name:"Make AI images & videos"},
+  "ai-agents":{emoji:"🤖",name:"AI that works for you"},
+  "llm-tools":{emoji:"🧠",name:"Your own ChatGPT"},
+  "security":{emoji:"🕶️",name:"Hackerman toolkit"},
+  "self-hosted":{emoji:"🏠",name:"Your private cloud"},
+  "automation":{emoji:"🦾",name:"Robots do your chores"},
+  "web-dev":{emoji:"🌐",name:"Build a website"},
+  "mobile":{emoji:"📱",name:"Make a phone app"},
+  "scraping-data":{emoji:"🕸️",name:"Grab stuff from websites"},
+  "apis":{emoji:"🍬",name:"Free data & goodies"},
+  "data-ml":{emoji:"📊",name:"Number-crunching brains"},
+  "devtools":{emoji:"🧰",name:"Power-ups"},
+  "learning":{emoji:"🎓",name:"Learn anything, free"},
+  "games":{emoji:"🎮",name:"Games & fun"},
+  "other":{emoji:"🎁",name:"Wild cards"},
+  "uncategorised":{emoji:"⏳",name:"Waiting for the Ring"},
 };
-const arena = c => ARENAS[c] || {emoji:"🎁", name:c, blurb:""};
+const arena = c => ARENAS[c] || {emoji:"🎁", name:c};
 
-// understand human wishes → arenas ("deepfake" → AI video world, etc.)
 const WISHES = [
-  [/deep ?fake|face ?swap|comfy|comfyui|\bwan\b|video|image|picture|art|draw|photo|voice|clone|speech|sing|talk/i, "ai-media"],
-  [/hack|password|spy|osint|pentest|security|anonym/i, "security"],
-  [/agent|assistant|does? (it|tasks|things) for me|browse for me|autopilot/i, "ai-agents"],
-  [/chat ?gpt|chatbot|\bllm\b|\bai\b.*(computer|laptop|offline|private)|own ai/i, "llm-tools"],
-  [/scrape|grab|extract|crawl|monitor (a )?site/i, "scraping-data"],
-  [/website|web ?site|landing page|portfolio/i, "web-dev"],
-  [/phone|android|\bios\b|mobile app/i, "mobile"],
-  [/automat|robot|chore|workflow|schedule|zapier/i, "automation"],
-  [/learn|course|tutorial|study|book/i, "learning"],
-  [/private cloud|self ?host|my own (server|cloud|netflix|google)/i, "self-hosted"],
-  [/free (data|api)|\bapi\b/i, "apis"],
-  [/game/i, "games"],
+  [/deep ?fake|face ?swap|comfy|comfyui|\bwan\b|video|image|picture|art|draw|photo|voice|clone|speech|sing|talk/i,"ai-media"],
+  [/hack|password|spy|osint|pentest|security|anonym/i,"security"],
+  [/agent|assistant|does? (it|tasks|things) for me|browse for me|autopilot/i,"ai-agents"],
+  [/chat ?gpt|chatbot|\bllm\b|own ai/i,"llm-tools"],
+  [/scrape|grab|extract|crawl|lead|monitor (a )?site/i,"scraping-data"],
+  [/website|web ?site|landing page|portfolio/i,"web-dev"],
+  [/phone|android|\bios\b|mobile app/i,"mobile"],
+  [/automat|robot|chore|workflow|schedule|zapier/i,"automation"],
+  [/learn|course|tutorial|study|book/i,"learning"],
+  [/private cloud|self ?host|my own (server|cloud|netflix|google)/i,"self-hosted"],
+  [/free (data|api)|\bapi\b/i,"apis"],
+  [/game/i,"games"],
 ];
 
-// score → chess rank
 function rankOf(s){
-  if (s >= 85) return "♔ Grandmaster class";
-  if (s >= 70) return "♕ Master class";
-  if (s >= 55) return "♘ Knight class";
-  if (s >= 40) return "♙ Rising pawn";
+  if (s>=85) return "♔ Grandmaster class";
+  if (s>=70) return "♕ Master class";
+  if (s>=55) return "♘ Knight class";
+  if (s>=40) return "♙ Rising pawn";
   return "🐣 Newcomer";
 }
-
-// translate backend flags into human
-const FREE_LICENSES = ["MIT","APACHE-2.0","BSD-2-CLAUSE","BSD-3-CLAUSE","ISC","UNLICENSE","0BSD"];
+const FREE_LICENSES=["MIT","APACHE-2.0","BSD-2-CLAUSE","BSD-3-CLAUSE","ISC","UNLICENSE","0BSD"];
 function humanFlags(r){
-  const out = [];
-  for (const f of (r.flags||[])) {
-    if (f.startsWith("🚀"))      out.push("🚀 Works in one click");
-    else if (f.startsWith("✅")) out.push("✅ Alive & kicking");
-    else if (f.startsWith("⚠️")) out.push("😴 Looks sleepy — not updated in ages");
-    else if (f.startsWith("🪦")) out.push("🪦 Retired — frozen in time");
-    else if (f.startsWith("🌱")) out.push("🌱 Great for beginners");
-    else if (f.startsWith("🚫")) out.push("🤔 No permission slip — fine to play with, ask a grown-up before selling");
-    else if (f.startsWith("📜")) {
-      const lic = f.replace("📜 ","").replace(" licensed","").toUpperCase();
-      out.push(FREE_LICENSES.includes(lic) ? "💸 Free to use — even to make money" : "🤝 Free — but share what you change");
+  const out=[];
+  for (const f of (r.flags||[])){
+    if(f.startsWith("🚀")) out.push("🚀 Works in one click");
+    else if(f.startsWith("✅")) out.push("✅ Alive & kicking");
+    else if(f.startsWith("⚠️")) out.push("😴 Looks sleepy");
+    else if(f.startsWith("🪦")) out.push("🪦 Retired");
+    else if(f.startsWith("🌱")) out.push("🌱 Beginner friendly");
+    else if(f.startsWith("🚫")) out.push("🤔 Ask before selling");
+    else if(f.startsWith("📜")){
+      const lic=f.replace("📜 ","").replace(" licensed","").toUpperCase();
+      out.push(FREE_LICENSES.includes(lic)?"💸 Free — even to make money":"🤝 Free — share your changes");
     } else out.push(f);
   }
-  if ((r.stars||0) >= 50000) out.unshift("🌍 Loved by the whole internet");
-  else if ((r.stars||0) >= 5000) out.unshift("⭐ Crowd favourite");
+  if((r.stars||0)>=50000) out.unshift("🌍 Loved worldwide");
+  else if((r.stars||0)>=5000) out.unshift("⭐ Crowd favourite");
   return out;
 }
+const prettyName = full => (full||"").split("/").pop().replace(/[-_]+/g," ").replace(/\b\w/g,c=>c.toUpperCase());
+const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-function prettyName(full){
-  const n = (full||"").split("/").pop();
-  return n.replace(/[-_]+/g," ").replace(/\b\w/g, c=>c.toUpperCase());
-}
-
-let ALL = null, cat = "", q = "";
+let ALL=null, tab="money", cat="", q="";
 const $ = s => document.querySelector(s);
-const esc = s => (s||"").toString().replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-function card(r, champ){
-  const pend = r.status !== "scored";
+function toolCard(r, champ, compact){
+  const pend = r.status!=="scored";
   const a = arena(r.category);
   const name = prettyName(r.full_name);
-  const url = r.url || ("https://github.com/" + r.full_name);
-  const tryUrl = "https://huggingface.co/spaces?search=" + encodeURIComponent((r.full_name||"").split("/").pop());
-  const howUrl = "https://www.youtube.com/results?search_query=" + encodeURIComponent("how to use " + name + " tutorial");
+  const url = r.url || ("https://github.com/"+r.full_name);
+  const tryUrl = "https://huggingface.co/spaces?search="+encodeURIComponent((r.full_name||"").split("/").pop());
+  const howUrl = "https://www.youtube.com/results?search_query="+encodeURIComponent("how to use "+name+" tutorial");
   return `<div class="card ${champ?"champ":""} ${pend?"pending":""}">
-    ${champ?'<div class="crownbadge">♛ REIGNING GRANDMASTER</div>':""}
+    ${champ?'<div class="crownbadge">♛ TOP PICK</div>':""}
     <div class="tname">${esc(name)}</div>
     <div class="tsub">${esc(r.full_name)}</div>
-    <div class="tdesc">${esc(r.description) || (pend?"⏳ Waiting for its first fight in the Ring…":a.blurb)}</div>
-    <div class="catline">${a.emoji} ${esc(a.name)}</div>
-    ${pend?"":`<div class="scorebar"><div class="meter"><i style="width:${r.score}%"></i></div>
-      <div class="score">${r.score}</div></div>
+    <div class="tdesc">${esc(r.description)||a.name}</div>
+    ${compact?"":`<div class="catline">${a.emoji} ${esc(a.name)}</div>`}
+    ${pend?"":`<div class="scorebar"><div class="meter"><i style="width:${r.score}%"></i></div><div class="score">${r.score}</div></div>
     <div class="rank">${rankOf(r.score)}</div>`}
-    <div class="flags">${humanFlags(r).map(f=>`<span class="flag">${esc(f)}</span>`).join("")}</div>
+    <div class="flags">${humanFlags(r).slice(0,compact?3:6).map(f=>`<span class="flag">${esc(f)}</span>`).join("")}</div>
     <div class="btns">
       <a class="btn-go" href="${esc(url)}" target="_blank" rel="noopener">Get it →</a>
       <a class="btn-ghost" href="${esc(tryUrl)}" target="_blank" rel="noopener">▶ Try in browser</a>
@@ -204,58 +206,101 @@ function card(r, champ){
   </div>`;
 }
 
-function allRepos(){
-  const out = [], seen = new Set();
-  for (const [c, rows] of Object.entries(ALL.categories||{}))
-    for (const r of rows) if (!seen.has(r.full_name)) { seen.add(r.full_name); out.push({...r, category:c}); }
+function toolsForArenas(keys){
+  const out=[], seen=new Set();
+  for (const k of keys){
+    const rows = (ALL.categories && ALL.categories[k]) || [];
+    for (const r of rows.slice(0,2)) if(!seen.has(r.full_name)){ seen.add(r.full_name); out.push({...r, category:k}); }
+  }
   return out.sort((a,b)=>(b.score||0)-(a.score||0));
 }
 
-function renderWishes(){
-  const cats = Object.keys(ALL.categories||{});
-  $("#wishes").innerHTML = (cat||q) ? "" : cats
-    .filter(c => ARENAS[c] && c !== "other" && c !== "uncategorised")
-    .map(c => `<button class="wish" data-c="${esc(c)}"><b>${arena(c).emoji}</b>${esc(arena(c).name)}</button>`).join("");
-  document.querySelectorAll(".wish").forEach(el=>el.onclick=()=>{cat=el.dataset.c;q="";$("#search").value="";render();});
+function moveCard(m){
+  const tools = toolsForArenas(m.arenas);
+  const champs = new Set((ALL.champions||[]).map(r=>r.full_name));
+  return `<details class="move">
+    <summary>
+      <div class="mi">${m.emoji}</div>
+      <div>
+        <div class="mt">${esc(m.title)}</div>
+        <div class="mh">${esc(m.hook)}</div>
+        <div class="badges">
+          <span class="badge b-earn">💰 ${esc(m.earn)}</span>
+          <span class="badge b-phone">${m.phone?"📱 Works on your phone":"💻 Needs a computer"}</span>
+          <span class="badge b-level">🎯 ${esc(m.level)}</span>
+        </div>
+      </div>
+      <div class="chev">›</div>
+    </summary>
+    <div class="mbody">
+      <ol class="steps">${m.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
+      ${m.freeTry?`<div class="freenote">💡 ${esc(m.freeTry)}</div>`:""}
+      <div class="toolhead">The tools you'll use (today's champions)</div>
+      ${tools.length?tools.map(r=>toolCard(r, champs.has(r.full_name), true)).join(""):'<div class="empty">Champions loading…</div>'}
+    </div>
+  </details>`;
 }
 
-function render(){
+function renderMoney(){
+  $("#search").style.display="none"; $("#chips").style.display="none";
+  const s = ALL.stats||{};
+  $("#stats").textContent = `♟ ${s.total||0} free tools ranked · pick a move, follow the steps, start earning`;
+  $("#view").innerHTML =
+    `<div class="hall">💰 MONEY MOVES — real businesses you can start with free tools</div>
+     <div class="intro">No money-making claim is a promise — these are proven paths other people walk every day. Everything below is free to start. No PC? Look for the 📱 badge and the "Try in browser" buttons. Tap any move to see the exact steps and the best tools for it.</div>
+     ${(window.PLAYBOOKS||[]).map(moveCard).join("")}`;
+}
+
+function allRepos(){
+  const out=[], seen=new Set();
+  for (const [c,rows] of Object.entries(ALL.categories||{}))
+    for (const r of rows) if(!seen.has(r.full_name)){ seen.add(r.full_name); out.push({...r, category:c}); }
+  return out.sort((a,b)=>(b.score||0)-(a.score||0));
+}
+
+function renderTools(){
+  $("#search").style.display=""; $("#chips").style.display="";
   const champNames = new Set((ALL.champions||[]).map(r=>r.full_name));
   const s = ALL.stats||{};
   $("#stats").textContent = `♟ ${s.total||0} tools on the board · ${s.scored||0} ranked · ${s.from_x||0} caught fresh from X`;
   const cats = Object.entries(ALL.categories||{}).map(([k,v])=>({c:k,n:v.length}));
-  $("#chips").innerHTML = `<span class="chip ${!cat&&!q?"on":""}" data-c="">♛ The Grand Hall</span>` +
+  $("#chips").innerHTML = `<span class="chip ${!cat&&!q?"on":""}" data-c="">♛ Grand Hall</span>`+
     cats.map(x=>`<span class="chip ${cat===x.c?"on":""}" data-c="${esc(x.c)}">${arena(x.c).emoji} ${esc(arena(x.c).name)}</span>`).join("");
-  document.querySelectorAll(".chip").forEach(el=>el.onclick=()=>{cat=el.dataset.c;q="";$("#search").value="";render();});
-  renderWishes();
-
-  let rows, heading = "";
-  if (q) {
-    const wishCat = (WISHES.find(([re])=>re.test(q))||[])[1];
-    const text = allRepos().filter(r =>
-      (r.full_name+" "+(r.description||"")+" "+arena(r.category).name+" "+(r.language||"")).toLowerCase().includes(q.toLowerCase()));
-    const wish = wishCat ? (ALL.categories[wishCat]||[]).map(r=>({...r, category:wishCat})) : [];
-    const seen = new Set(); rows = [];
-    for (const r of [...text, ...wish]) if (!seen.has(r.full_name)) { seen.add(r.full_name); rows.push(r); }
+  document.querySelectorAll(".chip").forEach(el=>el.onclick=()=>{cat=el.dataset.c;q="";$("#search").value="";renderTools();});
+  let rows, heading="";
+  if(q){
+    const wishCat=(WISHES.find(([re])=>re.test(q))||[])[1];
+    const text=allRepos().filter(r=>(r.full_name+" "+(r.description||"")+" "+arena(r.category).name+" "+(r.language||"")).toLowerCase().includes(q.toLowerCase()));
+    const wish=wishCat?(ALL.categories[wishCat]||[]).map(r=>({...r,category:wishCat})):[];
+    const seen=new Set(); rows=[];
+    for(const r of [...text,...wish]) if(!seen.has(r.full_name)){seen.add(r.full_name);rows.push(r);}
     rows.sort((a,b)=>(b.score||0)-(a.score||0));
-    heading = wishCat ? `${arena(wishCat).emoji} Best for that, says the Grandmaster:` : "🔎 The Grandmaster suggests:";
-  } else if (cat) {
-    rows = (ALL.categories[cat]||[]).map(r=>({...r, category:cat}));
-    heading = `${arena(cat).emoji} ${arena(cat).name} — ${arena(cat).blurb}`;
+    heading=wishCat?`${arena(wishCat).emoji} Best for that, says the Grandmaster:`:"🔎 The Grandmaster suggests:";
+  } else if(cat){
+    rows=(ALL.categories[cat]||[]).map(r=>({...r,category:cat}));
+    heading=`${arena(cat).emoji} ${arena(cat).name}`;
   } else {
-    rows = ALL.champions||[];
-    heading = "♛ THE GRAND HALL — the reigning champion of every arena";
+    rows=ALL.champions||[];
+    heading="♛ THE GRAND HALL — the reigning champion of every arena";
   }
-  $("#list").innerHTML = (heading?`<div class="hall">${esc(heading)}</div>`:"") + (rows.length
-    ? rows.map(r=>card(r, champNames.has(r.full_name))).join("")
-    : `<div class="empty">Nothing here yet.<br>The Ring re-opens every 6 hours — toss a find in below 👇</div>`);
+  $("#view").innerHTML=(heading?`<div class="hall">${esc(heading)}</div>`:"")+(rows.length
+    ? rows.map(r=>toolCard(r, champNames.has(r.full_name), false)).join("")
+    : `<div class="empty">Nothing here yet.<br>The Ring re-opens every 6 hours 👇</div>`);
 }
+
+function render(){ if(!ALL) return; tab==="money"?renderMoney():renderTools(); }
+
+document.querySelectorAll(".tab").forEach(el=>el.onclick=()=>{
+  tab=el.dataset.tab; cat=""; q=""; $("#search").value="";
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.tab===tab));
+  render();
+});
+let t; $("#search").addEventListener("input", e=>{ clearTimeout(t); t=setTimeout(()=>{ q=e.target.value.trim(); if(q)cat=""; renderTools(); },220); });
 
 async function load(){
-  try { ALL = await (await fetch(DATA, {cache:"no-store"})).json(); render(); }
-  catch (e) { $("#list").innerHTML = `<div class="empty">The board is still being set up.<br>Check back in a few minutes ♟</div>`; }
+  try { ALL = await (await fetch(DATA,{cache:"no-store"})).json(); render(); }
+  catch(e){ $("#view").innerHTML=`<div class="empty">The board is still being set up.<br>Check back in a few minutes ♟</div>`; }
 }
-let t; $("#search").addEventListener("input", e=>{ clearTimeout(t); t=setTimeout(()=>{ q=e.target.value.trim(); if(q)cat=""; render(); },220); });
 load();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
