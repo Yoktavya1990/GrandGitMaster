@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-04 09:02 UTC",
+  "generated_at": "2026-07-04 09:10 UTC",
   "stats": {
-    "total": 85,
-    "scored": 85,
+    "total": 92,
+    "scored": 92,
     "pending": 0,
     "from_x": 2
   },
@@ -31,7 +31,7 @@
         "webui"
       ],
       "stars": 144145,
-      "forks": 20814,
+      "forks": 20813,
       "open_issues": 294,
       "license": "Other",
       "homepage": "https://openwebui.com",
@@ -58,8 +58,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.404587,
-      "enriched_at": 1783155703.5295603,
+      "first_seen": 1783156147.9486542,
+      "enriched_at": 1783156173.6935723,
       "error": null
     },
     {
@@ -97,8 +97,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.4066863,
-      "enriched_at": 1783155704.184908,
+      "first_seen": 1783156147.9502394,
+      "enriched_at": 1783156174.5201561,
       "error": null
     },
     {
@@ -128,7 +128,7 @@
         "open-source",
         "vector-database"
       ],
-      "stars": 26871,
+      "stars": 26872,
       "forks": 2494,
       "open_issues": 561,
       "license": "Apache-2.0",
@@ -156,8 +156,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "trending",
-      "first_seen": 1783155694.7803268,
-      "enriched_at": 1783155719.6991475,
+      "first_seen": 1783156160.645123,
+      "enriched_at": 1783156194.0291975,
       "error": null
     },
     {
@@ -183,7 +183,7 @@
         "startpage",
         "yahoo"
       ],
-      "stars": 33284,
+      "stars": 33286,
       "forks": 3094,
       "open_issues": 212,
       "license": "AGPL-3.0",
@@ -211,8 +211,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "hackernews",
-      "first_seen": 1783155695.9712713,
-      "enriched_at": 1783155724.1295714,
+      "first_seen": 1783156161.9057887,
+      "enriched_at": 1783156199.6215854,
       "error": null
     },
     {
@@ -265,8 +265,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.411861,
-      "enriched_at": 1783155705.801237,
+      "first_seen": 1783156147.9546995,
+      "enriched_at": 1783156176.5997486,
       "error": null
     },
     {
@@ -285,14 +285,14 @@
         "python",
         "tensor"
       ],
-      "stars": 101472,
+      "stars": 101473,
       "forks": 28254,
       "open_issues": 18285,
       "license": "Other",
       "homepage": "https://pytorch.org",
       "archived": 0,
       "created_at": "2016-08-13T05:26:41Z",
-      "pushed_at": "2026-07-04T08:50:46Z",
+      "pushed_at": "2026-07-04T09:04:41Z",
       "category": "data-ml",
       "score": 95.0,
       "breakdown": {
@@ -313,8 +313,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.4178245,
-      "enriched_at": 1783155708.4413118,
+      "first_seen": 1783156147.960513,
+      "enriched_at": 1783156179.8360384,
       "error": null
     },
     {
@@ -363,8 +363,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.4098938,
-      "enriched_at": 1783155705.146673,
+      "first_seen": 1783156147.9529104,
+      "enriched_at": 1783156175.7799346,
       "error": null
     },
     {
@@ -380,7 +380,7 @@
         "rommapp",
         "self-hosted"
       ],
-      "stars": 9917,
+      "stars": 9920,
       "forks": 481,
       "open_issues": 184,
       "license": "AGPL-3.0",
@@ -408,8 +408,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "trending",
-      "first_seen": 1783155694.7645545,
-      "enriched_at": 1783155714.7821765,
+      "first_seen": 1783156160.6291974,
+      "enriched_at": 1783156187.5731354,
       "error": null
     },
     {
@@ -466,8 +466,52 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.4159517,
-      "enriched_at": 1783155707.7975793,
+      "first_seen": 1783156147.9585152,
+      "enriched_at": 1783156178.9992526,
+      "error": null
+    },
+    {
+      "full_name": "comfyanonymous/comfyui",
+      "display_name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "stable-diffusion"
+      ],
+      "stars": 119347,
+      "forks": 13996,
+      "open_issues": 4214,
+      "license": "GPL-3.0",
+      "homepage": "https://www.comfy.org/",
+      "archived": 0,
+      "created_at": "2023-01-17T03:15:56Z",
+      "pushed_at": "2026-07-04T09:06:09Z",
+      "category": "ai-media",
+      "score": 90.0,
+      "breakdown": {
+        "popularity": 25.0,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 10.0,
+        "docs": 15.0,
+        "one_click": 5.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc GPL-3.0 licensed"
+      ],
+      "status": "scored",
+      "source": "ingest",
+      "source_ref": "seeds/repos.txt",
+      "first_seen": 1783156147.936807,
+      "enriched_at": 1783156167.832822,
       "error": null
     },
     {
@@ -512,66 +556,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.414932,
-      "enriched_at": 1783155707.3858478,
-      "error": null
-    },
-    {
-      "full_name": "calesthio/openmontage",
-      "display_name": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot",
-        "cursor",
-        "elevenlabs",
-        "ffmpeg",
-        "flux",
-        "image-generation",
-        "open-source",
-        "openai",
-        "python",
-        "remotion",
-        "stable-diffusion",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "video-production"
-      ],
-      "stars": 32676,
-      "forks": 3731,
-      "open_issues": 136,
-      "license": "AGPL-3.0",
-      "homepage": "https://github.com/calesthio/OpenMontage",
-      "archived": 0,
-      "created_at": "2026-03-29T15:23:22Z",
-      "pushed_at": "2026-07-04T02:01:12Z",
-      "category": "ai-media",
-      "score": 87.5,
-      "breakdown": {
-        "popularity": 22.6,
-        "freshness": 20.0,
-        "maintenance": 15.0,
-        "community": 8.9,
-        "docs": 15.0,
-        "one_click": 6.0
-      },
-      "verdict": "\ud83d\udc51 Legendary",
-      "flags": [
-        "\u2705 Actively maintained",
-        "\ud83d\udcdc AGPL-3.0 licensed",
-        "\ud83c\udf31 Beginner friendly"
-      ],
-      "status": "scored",
-      "source": "scout",
-      "source_ref": "trending",
-      "first_seen": 1783155694.7860532,
-      "enriched_at": 1783155721.5565453,
+      "first_seen": 1783156147.9576151,
+      "enriched_at": 1783156178.5618663,
       "error": null
     },
     {
@@ -587,7 +573,7 @@
         "list",
         "resource"
       ],
-      "stars": 391245,
+      "stars": 391244,
       "forks": 66474,
       "open_issues": 81,
       "license": "CC-BY-4.0",
@@ -613,8 +599,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.4249713,
-      "enriched_at": 1783155710.69069,
+      "first_seen": 1783156147.9672072,
+      "enriched_at": 1783156182.620241,
       "error": null
     },
     {
@@ -638,7 +624,7 @@
         "resources",
         "software"
       ],
-      "stars": 446410,
+      "stars": 446413,
       "forks": 49003,
       "open_issues": 1494,
       "license": "MIT",
@@ -664,8 +650,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1783155682.3950815,
-      "enriched_at": 1783155700.9047077,
+      "first_seen": 1783156147.9360135,
+      "enriched_at": 1783156167.1190886,
       "error": null
     },
     {
@@ -681,7 +667,7 @@
         "java",
         "maven"
       ],
-      "stars": 5257,
+      "stars": 5259,
       "forks": 2904,
       "open_issues": 698,
       "license": "Apache-2.0",
@@ -707,8 +693,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "trending",
-      "first_seen": 1783155694.7663543,
-      "enriched_at": 1783155715.4126148,
+      "first_seen": 1783156160.631176,
+      "enriched_at": 1783156188.405583,
       "error": null
     }
   ],
@@ -726,7 +712,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 26871,
+        "stars": 26872,
         "language": "Python",
         "status": "scored"
       },
@@ -742,7 +728,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 102592,
+        "stars": 102595,
         "language": "Python",
         "status": "scored"
       },
@@ -756,7 +742,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc GPL-3.0 licensed"
         ],
-        "stars": 69262,
+        "stars": 69264,
         "language": "Python",
         "status": "scored"
       },
@@ -770,7 +756,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 35242,
+        "stars": 35252,
         "language": "Python",
         "status": "scored"
       },
@@ -784,7 +770,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 54873,
+        "stars": 54874,
         "language": "Python",
         "status": "scored"
       },
@@ -798,7 +784,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 245779,
+        "stars": 245786,
         "language": "Shell",
         "status": "scored"
       },
@@ -826,7 +812,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 22115,
+        "stars": 22117,
         "language": "Python",
         "status": "scored"
       },
@@ -840,7 +826,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 24717,
+        "stars": 24720,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -854,7 +840,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 126733,
+        "stars": 126741,
         "language": "Shell",
         "status": "scored"
       }
@@ -888,7 +874,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 11015,
+        "stars": 11018,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -935,7 +921,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 83294,
+        "stars": 83303,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -977,7 +963,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 135979,
+        "stars": 135978,
         "language": "Python",
         "status": "scored"
       },
@@ -991,22 +977,22 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 9354,
+        "stars": 9358,
         "language": "Python",
         "status": "scored"
       },
       {
-        "full_name": "openai/codex-plugin-cc",
-        "url": "https://github.com/openai/codex-plugin-cc",
-        "description": "Use Codex from Claude Code to review code or delegate tasks.",
-        "score": 73.8,
+        "full_name": "lllyasviel/fooocus",
+        "url": "https://github.com/lllyasviel/Fooocus",
+        "description": "Focus on prompting and generating",
+        "score": 75.3,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
+          "\ud83d\ude80 One-click ready",
+          "\ud83d\udcdc GPL-3.0 licensed"
         ],
-        "stars": 23462,
-        "language": "JavaScript",
+        "stars": 50650,
+        "language": "Python",
         "status": "scored"
       }
     ],
@@ -1069,7 +1055,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 105621,
+        "stars": 105622,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1097,7 +1083,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 22634,
+        "stars": 22637,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1111,7 +1097,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 8287,
+        "stars": 8288,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1125,7 +1111,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 522267,
+        "stars": 522268,
         "language": "Markdown",
         "status": "scored"
       },
@@ -1139,7 +1125,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 764,
+        "stars": 771,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1200,7 +1186,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 25769,
+        "stars": 25774,
         "language": "C",
         "status": "scored"
       },
@@ -1214,7 +1200,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 45584,
+        "stars": 45585,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1229,7 +1215,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 11010,
+        "stars": 11014,
         "language": "Rust",
         "status": "scored"
       },
@@ -1285,7 +1271,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 5139,
+        "stars": 5140,
         "language": "Go",
         "status": "scored"
       },
@@ -1299,8 +1285,99 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 1182,
+        "stars": 1183,
         "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "ai-media": [
+      {
+        "full_name": "comfyanonymous/comfyui",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+        "score": 90.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc GPL-3.0 licensed"
+        ],
+        "stars": 119347,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "calesthio/openmontage",
+        "url": "https://github.com/calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "score": 87.5,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc AGPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 32678,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "automatic1111/stable-diffusion-webui",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "description": "Stable Diffusion web UI",
+        "score": 78.0,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\ud83d\udcdc AGPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 163974,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "coqui-ai/tts",
+        "url": "https://github.com/coqui-ai/TTS",
+        "description": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+        "score": 71.8,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u26a0\ufe0f Might be abandoned",
+          "\ud83d\udcdc MPL-2.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 45683,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "rvc-project/retrieval-based-voice-conversion-webui",
+        "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+        "description": "Easily train a good VC model with voice data <= 10 mins!",
+        "score": 69.1,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u26a0\ufe0f Might be abandoned",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 36259,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "comfyanonymous/comfyui_examples",
+        "url": "https://github.com/comfyanonymous/ComfyUI_examples",
+        "description": "Examples of ComfyUI workflows",
+        "score": 61.1,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 4351,
+        "language": "HTML",
         "status": "scored"
       }
     ],
@@ -1317,7 +1394,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 9917,
+        "stars": 9920,
         "language": "Python",
         "status": "scored"
       },
@@ -1393,7 +1470,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 33284,
+        "stars": 33286,
         "language": "Python",
         "status": "scored"
       },
@@ -1503,7 +1580,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 101472,
+        "stars": 101473,
         "language": "Python",
         "status": "scored"
       },
@@ -1519,7 +1596,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 26336,
+        "stars": 26339,
         "language": "Python",
         "status": "scored"
       },
@@ -1535,6 +1612,48 @@
         ],
         "stars": 49118,
         "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "other": [
+      {
+        "full_name": "apache/maven",
+        "url": "https://github.com/apache/maven",
+        "description": "Apache Maven core",
+        "score": 77.3,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 5259,
+        "language": "Java",
+        "status": "scored"
+      },
+      {
+        "full_name": "stability-ai/generative-models",
+        "url": "https://github.com/Stability-AI/generative-models",
+        "description": "Generative Models by Stability AI",
+        "score": 65.9,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 27214,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "indu-shekhar/buyhatke",
+        "url": "https://github.com/indu-shekhar/Buyhatke",
+        "description": null,
+        "score": 24.5,
+        "verdict": "\ud83e\uddea Experimental",
+        "flags": [
+          "\ud83d\udeab No license \u2014 careful using this commercially"
+        ],
+        "stars": 1,
+        "language": null,
         "status": "scored"
       }
     ],
@@ -1595,7 +1714,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 446410,
+        "stars": 446413,
         "language": "Python",
         "status": "scored"
       },
@@ -1609,7 +1728,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 77403,
+        "stars": 77405,
         "language": "Java",
         "status": "scored"
       }
@@ -1625,7 +1744,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc CC-BY-4.0 licensed"
         ],
-        "stars": 391245,
+        "stars": 391244,
         "language": "Python",
         "status": "scored"
       },
@@ -1639,7 +1758,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc CC0-1.0 licensed"
         ],
-        "stars": 481317,
+        "stars": 481320,
         "language": null,
         "status": "scored"
       }
@@ -1671,52 +1790,6 @@
         ],
         "stars": 177613,
         "language": "Dart",
-        "status": "scored"
-      }
-    ],
-    "other": [
-      {
-        "full_name": "apache/maven",
-        "url": "https://github.com/apache/maven",
-        "description": "Apache Maven core",
-        "score": 77.3,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 5257,
-        "language": "Java",
-        "status": "scored"
-      },
-      {
-        "full_name": "indu-shekhar/buyhatke",
-        "url": "https://github.com/indu-shekhar/Buyhatke",
-        "description": null,
-        "score": 24.5,
-        "verdict": "\ud83e\uddea Experimental",
-        "flags": [
-          "\ud83d\udeab No license \u2014 careful using this commercially"
-        ],
-        "stars": 1,
-        "language": null,
-        "status": "scored"
-      }
-    ],
-    "ai-media": [
-      {
-        "full_name": "calesthio/openmontage",
-        "url": "https://github.com/calesthio/OpenMontage",
-        "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-        "score": 87.5,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc AGPL-3.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 32676,
-        "language": "Python",
         "status": "scored"
       }
     ]
