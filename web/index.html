@@ -93,6 +93,31 @@ main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
 .copybtn.done{background:var(--green);color:#fff}
 .plabel{font-size:12px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin:12px 0 4px}
 .sellline{font-size:13px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:9px 11px;margin-top:10px}
+.runbtn{width:100%;padding:12px;border:0;border-radius:12px;background:var(--accent);color:#04121f;font-weight:800;font-size:15px;cursor:pointer;margin-top:8px}
+.runbtn:disabled{opacity:.6;cursor:progress}
+.runout{background:#0b0f14;border:1px solid var(--accent);border-radius:12px;padding:12px;margin-top:8px;font:13px/1.55 -apple-system,sans-serif;color:#c9d1d9;white-space:pre-wrap;max-height:340px;overflow:auto;display:none}
+@media (prefers-color-scheme: light){.runout{background:#eef4fb;color:#1f2328}}
+.runout.on{display:block}
+.spotlight{background:linear-gradient(135deg,rgba(227,179,65,.18),rgba(88,166,255,.12));border:1px solid var(--gold);border-radius:18px;padding:16px;margin:2px 0 16px}
+.spotlight .sl{font-size:11px;font-weight:800;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.spotlight .st{font-size:19px;font-weight:800;margin:4px 0}
+.spotlight .sd{font-size:13.5px;color:var(--dim);margin-bottom:10px}
+.spotlight button{padding:10px 16px;border:0;border-radius:11px;background:var(--gold);color:#1f2328;font-weight:800;font-size:14px;cursor:pointer}
+.setupbar{display:flex;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px 12px;margin:2px 0 14px;font-size:13px}
+.setupbar .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+.setupbar .dot.off{background:#f85149}.setupbar .dot.on{background:var(--green)}
+.setupbar button{margin-left:auto;padding:8px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg);color:var(--text);font-weight:700;font-size:12.5px;cursor:pointer}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:flex-end;justify-content:center;z-index:20}
+.modal.on{display:flex}
+.sheet{background:var(--bg);border:1px solid var(--border);border-radius:18px 18px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));width:100%;max-width:560px;max-height:88vh;overflow:auto}
+.sheet h3{font-size:18px;margin-bottom:4px}
+.sheet p{font-size:13px;color:var(--dim);margin:6px 0 12px;line-height:1.55}
+.sheet label{font-size:12px;font-weight:700;color:var(--dim);display:block;margin:12px 0 4px}
+.sheet select,.sheet input{width:100%;padding:11px 12px;border-radius:11px;border:1px solid var(--border);background:var(--panel);color:var(--text);font-size:15px;outline:none}
+.sheet .row{display:flex;gap:8px;margin-top:16px}
+.sheet .row button{flex:1;padding:12px;border-radius:12px;border:0;font-weight:800;font-size:15px;cursor:pointer}
+.sheet .save{background:var(--gold);color:#1f2328}.sheet .close{background:var(--panel);border:1px solid var(--border);color:var(--text)}
+.sheet .sec{font-size:11.5px;color:var(--dim);background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:9px 11px;margin-top:12px;line-height:1.5}
 #addbar{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));
   background:var(--bg);border-top:1px solid var(--border)}
 #addbar a{flex:1;text-align:center;padding:12px;border-radius:12px;text-decoration:none;font-weight:700;font-size:13.5px}
@@ -115,6 +140,26 @@ main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
   <div id="stats"></div>
   <div id="view"><div class="empty">Setting up the board…</div></div>
 </main>
+<div class="modal" id="aiModal">
+  <div class="sheet">
+    <h3>⚡ Set up free AI — run money-prompts right here</h3>
+    <p>Add a <b>free</b> AI key once and every Auto-Pilot prompt runs inside this app — no ChatGPT subscription, no copy-paste. Your key is saved only on this device and is sent only to the provider you pick, never to us.</p>
+    <label>Free provider</label>
+    <select id="aiProvider">
+      <option value="openrouter">OpenRouter — free models, easiest</option>
+      <option value="groq">Groq — very fast, free tier</option>
+    </select>
+    <label>Model</label>
+    <input id="aiModel" placeholder="auto (leave blank for a good free default)">
+    <label>Your free API key</label>
+    <input id="aiKey" type="password" placeholder="paste your free key here">
+    <div class="sec">🔑 Get a free key in ~30s: <b>OpenRouter</b> → openrouter.ai/keys · <b>Groq</b> → console.groq.com/keys. No card needed. Also see the crowned "free-forever LLM APIs" list in the Tools tab.</div>
+    <div class="row">
+      <button class="close" id="aiClose">Cancel</button>
+      <button class="save" id="aiSave">Save</button>
+    </div>
+  </div>
+</div>
 <div id="addbar">
   <a class="btn-go2" id="addlink" target="_blank" rel="noopener">📥 Found a tool on X? Toss it in the Ring</a>
 </div>
@@ -308,11 +353,54 @@ function champToolCard(slug){
   return "";
 }
 
+// ——— free-AI settings (stored on device only) ———
+const PROVIDERS = {
+  openrouter: { url:"https://openrouter.ai/api/v1/chat/completions", model:"meta-llama/llama-3.3-70b-instruct:free" },
+  groq:       { url:"https://api.groq.com/openai/v1/chat/completions", model:"llama-3.3-70b-versatile" },
+};
+function aiCfg(){ try { return JSON.parse(localStorage.getItem("ggm_ai")||"null"); } catch(e){ return null; } }
+function aiReady(){ const c=aiCfg(); return !!(c&&c.key); }
+function openAiModal(){
+  const c=aiCfg()||{};
+  $("#aiProvider").value=c.provider||"openrouter";
+  $("#aiModel").value=c.model||"";
+  $("#aiKey").value=c.key||"";
+  $("#aiModal").classList.add("on");
+}
+function closeAiModal(){ $("#aiModal").classList.remove("on"); }
+function saveAi(){
+  const provider=$("#aiProvider").value, key=$("#aiKey").value.trim(), model=$("#aiModel").value.trim();
+  localStorage.setItem("ggm_ai", JSON.stringify({provider,key,model}));
+  closeAiModal(); if(tab==="auto") renderAuto();
+}
+async function runPrompt(prompt, outEl, btn){
+  const c=aiCfg(); if(!c||!c.key){ openAiModal(); return; }
+  const p=PROVIDERS[c.provider]||PROVIDERS.openrouter;
+  const model=c.model||p.model;
+  outEl.classList.add("on"); outEl.textContent="⏳ Running on your free AI…"; btn.disabled=true;
+  try {
+    const res=await fetch(p.url,{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+c.key},
+      body:JSON.stringify({model,messages:[{role:"user",content:prompt}]})});
+    if(!res.ok){ const t=await res.text(); throw new Error("HTTP "+res.status+" — "+t.slice(0,200)); }
+    const j=await res.json();
+    const txt=(j.choices&&j.choices[0]&&j.choices[0].message&&j.choices[0].message.content)||JSON.stringify(j).slice(0,500);
+    outEl.textContent=txt;
+  } catch(e){
+    outEl.textContent="⚠️ Couldn't run: "+e.message+"\n\nTip: check your key/model in ⚡ Free AI setup, or just Copy the prompt and paste it into any free AI.";
+  } finally { btn.disabled=false; }
+}
+// deterministic "move of the week" — rotates by ISO week, no randomness
+function weekIndex(n){
+  const now=new Date(); const start=new Date(now.getFullYear(),0,1);
+  const wk=Math.floor((now-start)/(7*864e5));
+  return ((wk%n)+n)%n;
+}
+
 function autoCard(a, i){
   const toolBlock = champToolCard(a.tool.slug) ||
     `<div class="card"><div class="tname">${esc(a.tool.name)}</div>
      <div class="tdesc">The tool that powers this — search it in the Tools tab.</div></div>`;
-  return `<details class="move">
+  return `<details class="move" id="ac${i}">
     <summary>
       <div class="mi">${a.emoji}</div>
       <div>
@@ -326,9 +414,11 @@ function autoCard(a, i){
       <div class="chev">›</div>
     </summary>
     <div class="mbody">
-      <div class="plabel">🤖 Paste this into any free AI (Claude, ChatGPT…) — it does the work</div>
+      <div class="plabel">🤖 The prompt that does the work</div>
       <div class="promptbox" id="pb${i}">${esc(a.prompt)}</div>
-      <button class="copybtn" data-i="${i}">📋 Copy the money prompt</button>
+      <button class="runbtn" data-run="${i}">⚡ Run it free — right here</button>
+      <div class="runout" id="ro${i}"></div>
+      <button class="copybtn" data-i="${i}">📋 Or copy it into your own AI</button>
       <div class="plabel">🚀 Launch it in 3 steps</div>
       <ol class="steps">${a.launch.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
       <div class="sellline">🛒 <b>Where to sell:</b> ${esc(a.sell)}</div>
@@ -341,17 +431,33 @@ function autoCard(a, i){
 function renderAuto(){
   $("#search").style.display="none"; $("#chips").style.display="none";
   const s = ALL.stats||{};
-  $("#stats").textContent = `🤖 ${(window.AUTOPILOTS||[]).length} auto-pilots · copy a prompt, paste into any AI, get paid`;
+  const list = window.AUTOPILOTS||[];
+  $("#stats").textContent = `🤖 ${list.length} auto-pilots · run a money-prompt free, right here, no coding`;
+  const spot = list[weekIndex(list.length||1)]||list[0];
+  const ready = aiReady();
   $("#view").innerHTML =
     `<div class="hall">🤖 AUTO-PILOT — the AI does the work, you keep the money</div>
-     <div class="intro">Each one hands you a ready-made prompt. Copy it, paste it into any free AI, fill in the [brackets], and it produces something you can sell today — no coding, no skills, no PC needed for most. Pick one and press copy. (Nothing here promises income — but this is exactly how people do it.)</div>
-     ${(window.AUTOPILOTS||[]).map(autoCard).join("")}`;
+     <div class="setupbar"><span class="dot ${ready?"on":"off"}"></span>
+       ${ready?"Free AI connected — press ⚡ Run on any card":"Connect a free AI to run prompts in-app (30 sec, no card)"}
+       <button id="aiSetupBtn">⚡ Free AI setup</button></div>
+     ${spot?`<div class="spotlight"><div class="sl">💸 Move of the week</div>
+       <div class="st">${spot.emoji} ${esc(spot.title)}</div>
+       <div class="sd">${esc(spot.what)} — ${esc(spot.earn)}</div>
+       <button id="spotBtn">Start this one →</button></div>`:""}
+     <div class="intro">Each auto-pilot hands you a ready-made prompt. Press <b>⚡ Run it free</b> to run it inside this app on a free AI, or copy it into your own. Fill the [brackets] and it makes something you can sell today — no coding, no PC needed for most. (Nothing here promises income — but this is exactly how people do it.)</div>
+     ${list.map(autoCard).join("")}`;
+  $("#aiSetupBtn").onclick=openAiModal;
+  const sb=document.getElementById("spotBtn");
+  if(sb) sb.onclick=()=>{ const el=document.getElementById("ac"+(weekIndex(list.length||1))); if(el){ el.open=true; el.scrollIntoView({behavior:"smooth",block:"center"}); } };
   document.querySelectorAll(".copybtn").forEach(btn=>btn.onclick=()=>{
-    const i=btn.dataset.i, txt=(window.AUTOPILOTS[i]||{}).prompt||"";
-    const done=()=>{btn.textContent="✅ Copied! Now paste it into your AI";btn.classList.add("done");
-      setTimeout(()=>{btn.textContent="📋 Copy the money prompt";btn.classList.remove("done");},2500);};
+    const i=btn.dataset.i, txt=(list[i]||{}).prompt||"";
+    const done=()=>{btn.textContent="✅ Copied!";btn.classList.add("done");
+      setTimeout(()=>{btn.textContent="📋 Or copy it into your own AI";btn.classList.remove("done");},2200);};
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done).catch(()=>fallbackCopy(i,done));}
     else fallbackCopy(i,done);
+  });
+  document.querySelectorAll(".runbtn").forEach(btn=>btn.onclick=()=>{
+    const i=btn.dataset.run; runPrompt((list[i]||{}).prompt||"", document.getElementById("ro"+i), btn);
   });
 }
 function fallbackCopy(i,done){
@@ -368,6 +474,10 @@ document.querySelectorAll(".tab").forEach(el=>el.onclick=()=>{
   render();
 });
 let t; $("#search").addEventListener("input", e=>{ clearTimeout(t); t=setTimeout(()=>{ q=e.target.value.trim(); if(q)cat=""; renderTools(); },220); });
+
+$("#aiClose").onclick=closeAiModal;
+$("#aiSave").onclick=saveAi;
+$("#aiModal").addEventListener("click", e=>{ if(e.target.id==="aiModal") closeAiModal(); });
 
 async function load(){
   try { ALL = await (await fetch(DATA,{cache:"no-store"})).json(); render(); }
