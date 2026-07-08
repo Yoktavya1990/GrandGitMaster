@@ -84,6 +84,15 @@ main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
 .empty{color:var(--dim);text-align:center;padding:40px 20px;line-height:1.7}
 .wishrow .card{background:var(--panel)}
 .pending{opacity:.6}
+/* auto-pilot */
+.promptbox{background:#0b0f14;border:1px solid var(--border);border-radius:12px;padding:12px;margin:10px 0;
+  font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:#c9d1d9;white-space:pre-wrap;max-height:230px;overflow:auto}
+@media (prefers-color-scheme: light){.promptbox{background:#f0f3f6;color:#1f2328}}
+.copybtn{width:100%;padding:12px;border:0;border-radius:12px;background:var(--gold);color:#1f2328;
+  font-weight:800;font-size:15px;cursor:pointer;margin-top:2px}
+.copybtn.done{background:var(--green);color:#fff}
+.plabel{font-size:12px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin:12px 0 4px}
+.sellline{font-size:13px;color:var(--text);background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:9px 11px;margin-top:10px}
 #addbar{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));
   background:var(--bg);border-top:1px solid var(--border)}
 #addbar a{flex:1;text-align:center;padding:12px;border-radius:12px;text-decoration:none;font-weight:700;font-size:13.5px}
@@ -94,8 +103,9 @@ main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
 <header>
   <h1><span class="crown">♛</span> GrandGitMaster <small>you wish it · we rank it · you cash in</small></h1>
   <div id="tabs">
-    <div class="tab on" data-tab="money">💰 Money Moves</div>
-    <div class="tab" data-tab="tools">🧰 Browse tools</div>
+    <div class="tab on" data-tab="auto">🤖 Auto-Pilot</div>
+    <div class="tab" data-tab="money">💰 Money Moves</div>
+    <div class="tab" data-tab="tools">🧰 Tools</div>
   </div>
   <input id="search" type="search" autocomplete="off" style="display:none"
     placeholder="Say it your way… 'make AI videos', 'clone a voice', 'be hackerman'">
@@ -110,6 +120,7 @@ main{padding:14px 16px 96px;max-width:760px;margin:0 auto}
 </div>
 
 <script src="playbooks.js"></script>
+<script src="autopilot.js"></script>
 <script>
 const REPO = "Yoktavya1990/GrandGitMaster";
 const DATA = `https://raw.githubusercontent.com/${REPO}/main/data/champions.json`;
@@ -179,7 +190,7 @@ function humanFlags(r){
 const prettyName = full => (full||"").split("/").pop().replace(/[-_]+/g," ").replace(/\b\w/g,c=>c.toUpperCase());
 const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-let ALL=null, tab="money", cat="", q="";
+let ALL=null, tab="auto", cat="", q="";
 const $ = s => document.querySelector(s);
 
 function toolCard(r, champ, compact){
@@ -288,7 +299,68 @@ function renderTools(){
     : `<div class="empty">Nothing here yet.<br>The Ring re-opens every 6 hours 👇</div>`);
 }
 
-function render(){ if(!ALL) return; tab==="money"?renderMoney():renderTools(); }
+function champToolCard(slug){
+  // find the ranked repo by slug (case-insensitive) to show the real champion card
+  const want = (slug||"").toLowerCase();
+  for (const [c,rows] of Object.entries(ALL.categories||{}))
+    for (const r of rows) if ((r.full_name||"").toLowerCase()===want)
+      return toolCard({...r, category:c}, true, true);
+  return "";
+}
+
+function autoCard(a, i){
+  const toolBlock = champToolCard(a.tool.slug) ||
+    `<div class="card"><div class="tname">${esc(a.tool.name)}</div>
+     <div class="tdesc">The tool that powers this — search it in the Tools tab.</div></div>`;
+  return `<details class="move">
+    <summary>
+      <div class="mi">${a.emoji}</div>
+      <div>
+        <div class="mt">${esc(a.title)}</div>
+        <div class="mh">${esc(a.what)}</div>
+        <div class="badges">
+          <span class="badge b-earn">💰 ${esc(a.earn)}</span>
+          <span class="badge b-phone">${a.phone?"📱 Works on your phone":"💻 Needs a computer"}</span>
+        </div>
+      </div>
+      <div class="chev">›</div>
+    </summary>
+    <div class="mbody">
+      <div class="plabel">🤖 Paste this into any free AI (Claude, ChatGPT…) — it does the work</div>
+      <div class="promptbox" id="pb${i}">${esc(a.prompt)}</div>
+      <button class="copybtn" data-i="${i}">📋 Copy the money prompt</button>
+      <div class="plabel">🚀 Launch it in 3 steps</div>
+      <ol class="steps">${a.launch.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
+      <div class="sellline">🛒 <b>Where to sell:</b> ${esc(a.sell)}</div>
+      <div class="plabel">🛠️ The tool that powers it</div>
+      ${toolBlock}
+    </div>
+  </details>`;
+}
+
+function renderAuto(){
+  $("#search").style.display="none"; $("#chips").style.display="none";
+  const s = ALL.stats||{};
+  $("#stats").textContent = `🤖 ${(window.AUTOPILOTS||[]).length} auto-pilots · copy a prompt, paste into any AI, get paid`;
+  $("#view").innerHTML =
+    `<div class="hall">🤖 AUTO-PILOT — the AI does the work, you keep the money</div>
+     <div class="intro">Each one hands you a ready-made prompt. Copy it, paste it into any free AI, fill in the [brackets], and it produces something you can sell today — no coding, no skills, no PC needed for most. Pick one and press copy. (Nothing here promises income — but this is exactly how people do it.)</div>
+     ${(window.AUTOPILOTS||[]).map(autoCard).join("")}`;
+  document.querySelectorAll(".copybtn").forEach(btn=>btn.onclick=()=>{
+    const i=btn.dataset.i, txt=(window.AUTOPILOTS[i]||{}).prompt||"";
+    const done=()=>{btn.textContent="✅ Copied! Now paste it into your AI";btn.classList.add("done");
+      setTimeout(()=>{btn.textContent="📋 Copy the money prompt";btn.classList.remove("done");},2500);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done).catch(()=>fallbackCopy(i,done));}
+    else fallbackCopy(i,done);
+  });
+}
+function fallbackCopy(i,done){
+  const el=document.getElementById("pb"+i); const r=document.createRange();
+  r.selectNodeContents(el); const sel=window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+  try{document.execCommand("copy");done();}catch(e){} sel.removeAllRanges();
+}
+
+function render(){ if(!ALL) return; tab==="auto"?renderAuto():tab==="money"?renderMoney():renderTools(); }
 
 document.querySelectorAll(".tab").forEach(el=>el.onclick=()=>{
   tab=el.dataset.tab; cat=""; q=""; $("#search").value="";
