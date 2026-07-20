@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-19 19:34 UTC",
+  "generated_at": "2026-07-20 04:06 UTC",
   "stats": {
-    "total": 123,
-    "scored": 123,
+    "total": 127,
+    "scored": 127,
     "pending": 0,
     "from_x": 2
   },
@@ -30,9 +30,9 @@
         "ui",
         "webui"
       ],
-      "stars": 145965,
-      "forks": 21153,
-      "open_issues": 470,
+      "stars": 146006,
+      "forks": 21163,
+      "open_issues": 473,
       "license": "Other",
       "homepage": "https://openwebui.com",
       "archived": 0,
@@ -58,8 +58,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4653444,
-      "enriched_at": 1784489626.6659245,
+      "first_seen": 1784520328.6981435,
+      "enriched_at": 1784520379.8709922,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
         "trade",
         "trading"
       ],
-      "stars": 43344,
+      "stars": 43350,
       "forks": 8745,
       "open_issues": 1218,
       "license": "MIT",
@@ -117,41 +117,43 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.494995,
-      "enriched_at": 1784489640.898409,
+      "first_seen": 1784520328.7328637,
+      "enriched_at": 1784520391.059408,
       "error": null
     },
     {
-      "full_name": "jamiepine/voicebox",
-      "display_name": "jamiepine/voicebox",
-      "url": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
+      "full_name": "hkuds/vibe-trading",
+      "display_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
       "topics": [
-        "ai",
-        "cuda",
-        "mlx",
-        "qwen3-tts",
-        "qwen3-tts-ui",
-        "voice-ai",
-        "voice-clone",
-        "whisper"
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
       ],
-      "stars": 43217,
-      "forks": 5284,
-      "open_issues": 574,
+      "stars": 25361,
+      "forks": 4175,
+      "open_issues": 68,
       "license": "MIT",
-      "homepage": "https://voicebox.sh",
+      "homepage": "https://vibetrading.wiki/",
       "archived": 0,
-      "created_at": "2026-01-25T12:27:03Z",
-      "pushed_at": "2026-07-13T01:35:17Z",
-      "category": "ai-media",
-      "score": 97.5,
+      "created_at": "2026-04-01T09:52:20Z",
+      "pushed_at": "2026-07-19T11:50:04Z",
+      "category": "ai-agents",
+      "score": 96.1,
       "breakdown": {
-        "popularity": 23.2,
+        "popularity": 22.0,
         "freshness": 20.0,
         "maintenance": 15.0,
-        "community": 9.3,
+        "community": 9.1,
         "docs": 15.0,
         "one_click": 15.0
       },
@@ -165,8 +167,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "trending",
-      "first_seen": 1784489606.194879,
-      "enriched_at": 1784489649.9957817,
+      "first_seen": 1784520362.8799176,
+      "enriched_at": 1784520402.798844,
       "error": null
     },
     {
@@ -176,9 +178,9 @@
       "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
       "language": "Python",
       "topics": [],
-      "stars": 73307,
-      "forks": 7539,
-      "open_issues": 112,
+      "stars": 73337,
+      "forks": 7540,
+      "open_issues": 111,
       "license": "Apache-2.0",
       "homepage": "https://crawl4ai.com",
       "archived": 0,
@@ -204,58 +206,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4668007,
-      "enriched_at": 1784489627.4069664,
-      "error": null
-    },
-    {
-      "full_name": "hkuds/vibe-trading",
-      "display_name": "HKUDS/Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python",
-      "topics": [
-        "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "fintech",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "python",
-        "quantitative-finance",
-        "trading"
-      ],
-      "stars": 25238,
-      "forks": 4167,
-      "open_issues": 66,
-      "license": "MIT",
-      "homepage": "https://vibetrading.wiki/",
-      "archived": 0,
-      "created_at": "2026-04-01T09:52:20Z",
-      "pushed_at": "2026-07-19T11:50:04Z",
-      "category": "ai-agents",
-      "score": 96.0,
-      "breakdown": {
-        "popularity": 22.0,
-        "freshness": 20.0,
-        "maintenance": 15.0,
-        "community": 9.0,
-        "docs": 15.0,
-        "one_click": 15.0
-      },
-      "verdict": "\ud83d\udc51 Legendary",
-      "flags": [
-        "\ud83d\ude80 One-click ready",
-        "\u2705 Actively maintained",
-        "\ud83d\udcdc MIT licensed",
-        "\ud83c\udf31 Beginner friendly"
-      ],
-      "status": "scored",
-      "source": "scout",
-      "source_ref": "trending",
-      "first_seen": 1784489606.218055,
-      "enriched_at": 1784489656.5270748,
+      "first_seen": 1784520328.7001302,
+      "enriched_at": 1784520380.367744,
       "error": null
     },
     {
@@ -280,14 +232,14 @@
         "universal",
         "vercel"
       ],
-      "stars": 141021,
+      "stars": 141025,
       "forks": 31480,
-      "open_issues": 4217,
+      "open_issues": 4220,
       "license": "MIT",
       "homepage": "https://nextjs.org",
       "archived": 0,
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-07-19T19:17:20Z",
+      "pushed_at": "2026-07-20T03:07:02Z",
       "category": "web-dev",
       "score": 95.0,
       "breakdown": {
@@ -308,8 +260,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4705567,
-      "enriched_at": 1784489629.3356519,
+      "first_seen": 1784520328.7049768,
+      "enriched_at": 1784520381.8428683,
       "error": null
     },
     {
@@ -328,14 +280,14 @@
         "python",
         "tensor"
       ],
-      "stars": 101771,
+      "stars": 101781,
       "forks": 28433,
-      "open_issues": 18319,
+      "open_issues": 18303,
       "license": "Other",
       "homepage": "https://pytorch.org",
       "archived": 0,
       "created_at": "2016-08-13T05:26:41Z",
-      "pushed_at": "2026-07-19T19:19:19Z",
+      "pushed_at": "2026-07-20T03:54:12Z",
       "category": "data-ml",
       "score": 95.0,
       "breakdown": {
@@ -356,8 +308,56 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.475386,
-      "enriched_at": 1784489632.340248,
+      "first_seen": 1784520328.71073,
+      "enriched_at": 1784520383.936275,
+      "error": null
+    },
+    {
+      "full_name": "jamiepine/voicebox",
+      "display_name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ],
+      "stars": 43503,
+      "forks": 5308,
+      "open_issues": 576,
+      "license": "MIT",
+      "homepage": "https://voicebox.sh",
+      "archived": 0,
+      "created_at": "2026-01-25T12:27:03Z",
+      "pushed_at": "2026-07-13T01:35:17Z",
+      "category": "ai-media",
+      "score": 94.5,
+      "breakdown": {
+        "popularity": 23.2,
+        "freshness": 17.0,
+        "maintenance": 15.0,
+        "community": 9.3,
+        "docs": 15.0,
+        "one_click": 15.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc MIT licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "scout",
+      "source_ref": "trending",
+      "first_seen": 1784520362.862079,
+      "enriched_at": 1784520397.9360106,
       "error": null
     },
     {
@@ -378,9 +378,9 @@
         "vim",
         "zsh"
       ],
-      "stars": 81845,
-      "forks": 2821,
-      "open_issues": 323,
+      "stars": 81856,
+      "forks": 2822,
+      "open_issues": 324,
       "license": "MIT",
       "homepage": "https://junegunn.github.io/fzf/",
       "archived": 0,
@@ -406,8 +406,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4690702,
-      "enriched_at": 1784489628.5977287,
+      "first_seen": 1784520328.7030916,
+      "enriched_at": 1784520381.2332804,
       "error": null
     },
     {
@@ -438,14 +438,14 @@
         "workflow",
         "workflow-automation"
       ],
-      "stars": 197058,
-      "forks": 59473,
-      "open_issues": 1401,
+      "stars": 197094,
+      "forks": 59479,
+      "open_issues": 1404,
       "license": "Other",
       "homepage": "https://n8n.io",
       "archived": 0,
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-07-19T19:33:46Z",
+      "pushed_at": "2026-07-20T03:55:58Z",
       "category": "automation",
       "score": 90.0,
       "breakdown": {
@@ -464,8 +464,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4738045,
-      "enriched_at": 1784489631.5998821,
+      "first_seen": 1784520328.7089255,
+      "enriched_at": 1784520383.3657987,
       "error": null
     },
     {
@@ -484,14 +484,14 @@
         "react",
         "react-native"
       ],
-      "stars": 126232,
+      "stars": 126236,
       "forks": 25185,
-      "open_issues": 1028,
+      "open_issues": 1029,
       "license": "MIT",
       "homepage": "https://reactnative.dev",
       "archived": 0,
       "created_at": "2015-01-09T18:10:16Z",
-      "pushed_at": "2026-07-19T14:05:37Z",
+      "pushed_at": "2026-07-19T23:27:15Z",
       "category": "mobile",
       "score": 88.0,
       "breakdown": {
@@ -510,8 +510,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.4730597,
-      "enriched_at": 1784489631.216953,
+      "first_seen": 1784520328.7080014,
+      "enriched_at": 1784520383.0531554,
       "error": null
     },
     {
@@ -525,9 +525,9 @@
         "laravel",
         "php"
       ],
-      "stars": 34798,
-      "forks": 11911,
-      "open_issues": 108,
+      "stars": 34799,
+      "forks": 11915,
+      "open_issues": 109,
       "license": "MIT",
       "homepage": "https://laravel.com",
       "archived": 0,
@@ -551,8 +551,8 @@
       "status": "scored",
       "source": "x-sleuth",
       "source_ref": "2073430710740754598",
-      "first_seen": 1784489614.9959962,
-      "enriched_at": 1784489664.7891135,
+      "first_seen": 1784520370.5149703,
+      "enriched_at": 1784520409.6800368,
       "error": null
     },
     {
@@ -571,8 +571,8 @@
         "self-hosted",
         "selfhosted"
       ],
-      "stars": 306730,
-      "forks": 14376,
+      "stars": 306813,
+      "forks": 14381,
       "open_issues": 0,
       "license": "Other",
       "homepage": "https://awesome-selfhosted.net/",
@@ -597,8 +597,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.478791,
-      "enriched_at": 1784489633.8941078,
+      "first_seen": 1784520328.7144935,
+      "enriched_at": 1784520385.2638326,
       "error": null
     },
     {
@@ -614,8 +614,8 @@
         "list",
         "resource"
       ],
-      "stars": 392489,
-      "forks": 66552,
+      "stars": 392514,
+      "forks": 66553,
       "open_issues": 71,
       "license": "CC-BY-4.0",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
@@ -640,8 +640,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1784489559.481285,
-      "enriched_at": 1784489634.9178658,
+      "first_seen": 1784520328.717344,
+      "enriched_at": 1784520386.1880348,
       "error": null
     }
   ],
@@ -659,7 +659,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 145965,
+        "stars": 146006,
         "language": "Python",
         "status": "scored"
       },
@@ -675,7 +675,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 36662,
+        "stars": 36744,
         "language": "Python",
         "status": "scored"
       },
@@ -691,7 +691,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 27889,
+        "stars": 28022,
         "language": "Python",
         "status": "scored"
       },
@@ -707,7 +707,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 176454,
+        "stars": 176476,
         "language": "Go",
         "status": "scored"
       },
@@ -723,7 +723,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 120951,
+        "stars": 120985,
         "language": "C++",
         "status": "scored"
       },
@@ -739,7 +739,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 6537,
+        "stars": 6538,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -755,7 +755,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 3580,
+        "stars": 3584,
         "language": "Python",
         "status": "scored"
       },
@@ -769,7 +769,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 142095,
+        "stars": 142120,
         "language": "Python",
         "status": "scored"
       },
@@ -783,7 +783,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 185615,
+        "stars": 185617,
         "language": "Python",
         "status": "scored"
       },
@@ -797,7 +797,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 124473,
+        "stars": 124640,
         "language": "Python",
         "status": "scored"
       }
@@ -815,7 +815,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 141021,
+        "stars": 141025,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -831,7 +831,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 108168,
+        "stars": 108201,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -847,7 +847,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 36880,
+        "stars": 36985,
         "language": "Python",
         "status": "scored"
       },
@@ -861,7 +861,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 246581,
+        "stars": 246587,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -875,7 +875,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc AGPL-3.0 licensed"
         ],
-        "stars": 47386,
+        "stars": 47392,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -889,7 +889,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 43767,
+        "stars": 43781,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -903,7 +903,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 65197,
+        "stars": 65302,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -917,7 +917,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 72723,
+        "stars": 72876,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -931,7 +931,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 528835,
+        "stars": 529024,
         "language": "Markdown",
         "status": "scored"
       },
@@ -945,7 +945,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 16631,
+        "stars": 16632,
         "language": "TypeScript",
         "status": "scored"
       }
@@ -955,7 +955,7 @@
         "full_name": "hkuds/vibe-trading",
         "url": "https://github.com/HKUDS/Vibe-Trading",
         "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "score": 96.0,
+        "score": 96.1,
         "verdict": "\ud83d\udc51 Legendary",
         "flags": [
           "\ud83d\ude80 One-click ready",
@@ -963,7 +963,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 25238,
+        "stars": 25361,
         "language": "Python",
         "status": "scored"
       },
@@ -979,7 +979,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 105551,
+        "stars": 105603,
         "language": "Python",
         "status": "scored"
       },
@@ -995,7 +995,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 66803,
+        "stars": 66856,
         "language": "Rust",
         "status": "scored"
       },
@@ -1011,7 +1011,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 20202,
+        "stars": 20263,
         "language": "HTML",
         "status": "scored"
       },
@@ -1026,7 +1026,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 99647,
+        "stars": 99762,
         "language": "Rust",
         "status": "scored"
       },
@@ -1040,7 +1040,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 55781,
+        "stars": 55803,
         "language": "Python",
         "status": "scored"
       },
@@ -1054,7 +1054,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 49645,
+        "stars": 49647,
         "language": "Ruby",
         "status": "scored"
       },
@@ -1068,7 +1068,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 19594,
+        "stars": 19748,
         "language": "C#",
         "status": "scored"
       },
@@ -1082,7 +1082,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 177350,
+        "stars": 177747,
         "language": "Shell",
         "status": "scored"
       },
@@ -1096,159 +1096,8 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 9929,
+        "stars": 9984,
         "language": "Java",
-        "status": "scored"
-      }
-    ],
-    "scraping-data": [
-      {
-        "full_name": "unclecode/crawl4ai",
-        "url": "https://github.com/unclecode/crawl4ai",
-        "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-        "score": 96.0,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 73307,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "scrapegraphai/scrapegraph-ai",
-        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
-        "description": "Python scraper based on AI",
-        "score": 95.9,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 28479,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "d4vinci/scrapling",
-        "url": "https://github.com/D4Vinci/Scrapling",
-        "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-        "score": 91.8,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc BSD-3-Clause licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 70159,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "firecrawl/firecrawl",
-        "url": "https://github.com/firecrawl/firecrawl",
-        "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
-        "score": 89.9,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc AGPL-3.0 licensed"
-        ],
-        "stars": 153104,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "nanmicoder/mediacrawler",
-        "url": "https://github.com/NanmiCoder/MediaCrawler",
-        "description": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0 | \u8bc4\u8bba\u722c\u866b\u3001\u6296\u97f3\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001\u5feb\u624b\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001B \u7ad9\u89c6\u9891 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u5fae\u535a\u5e16\u5b50 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u767e\u5ea6\u8d34\u5427\u5e16\u5b50 \uff5c \u767e\u5ea6\u8d34\u5427\u8bc4\u8bba\u56de\u590d\u722c\u866b  | \u77e5\u4e4e\u95ee\u7b54\u6587\u7ae0\uff5c\u8bc4\u8bba\u722c\u866b",
-        "score": 88.8,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 56900,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "microsoft/playwright",
-        "url": "https://github.com/microsoft/playwright",
-        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-        "score": 87.3,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 93114,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "scrapy/scrapy",
-        "url": "https://github.com/scrapy/scrapy",
-        "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
-        "score": 87.0,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc BSD-3-Clause licensed"
-        ],
-        "stars": 63236,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "getmaxun/maxun",
-        "url": "https://github.com/getmaxun/maxun",
-        "description": "\ud83d\udd25 The open-source no-code platform for web scraping, crawling, search and AI data extraction \u2022 Turn websites into structured APIs in minutes \ud83d\udd25 ",
-        "score": 87.0,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc AGPL-3.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 16592,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "apify/crawlee",
-        "url": "https://github.com/apify/crawlee",
-        "description": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
-        "score": 83.0,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 24808,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "gocolly/colly",
-        "url": "https://github.com/gocolly/colly",
-        "description": "Elegant Scraper and Crawler Framework for Golang",
-        "score": 76.2,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 25380,
-        "language": "Go",
         "status": "scored"
       }
     ],
@@ -1265,7 +1114,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 81845,
+        "stars": 81856,
         "language": "Go",
         "status": "scored"
       },
@@ -1280,7 +1129,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 45324,
+        "stars": 45329,
         "language": "Go",
         "status": "scored"
       },
@@ -1295,7 +1144,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 71852,
+        "stars": 71900,
         "language": "Rust",
         "status": "scored"
       },
@@ -1309,7 +1158,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 75791,
+        "stars": 75978,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1317,13 +1166,13 @@
         "full_name": "stablyai/orca",
         "url": "https://github.com/stablyai/orca",
         "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-        "score": 82.7,
+        "score": 82.8,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 22236,
+        "stars": 22552,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1337,7 +1186,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 104127,
+        "stars": 104214,
         "language": "C++",
         "status": "scored"
       },
@@ -1352,7 +1201,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 9822,
+        "stars": 9949,
         "language": "Python",
         "status": "scored"
       },
@@ -1366,7 +1215,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 72281,
+        "stars": 72288,
         "language": "PHP",
         "status": "scored"
       },
@@ -1393,8 +1242,159 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 1531,
+        "stars": 1532,
         "language": "Python",
+        "status": "scored"
+      }
+    ],
+    "scraping-data": [
+      {
+        "full_name": "unclecode/crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+        "score": 96.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 73337,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "scrapegraphai/scrapegraph-ai",
+        "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+        "description": "Python scraper based on AI",
+        "score": 95.9,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 28486,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "d4vinci/scrapling",
+        "url": "https://github.com/D4Vinci/Scrapling",
+        "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+        "score": 91.8,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc BSD-3-Clause licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 70204,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "firecrawl/firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl",
+        "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+        "score": 89.9,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc AGPL-3.0 licensed"
+        ],
+        "stars": 153204,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "nanmicoder/mediacrawler",
+        "url": "https://github.com/NanmiCoder/MediaCrawler",
+        "description": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0 | \u8bc4\u8bba\u722c\u866b\u3001\u6296\u97f3\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001\u5feb\u624b\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001B \u7ad9\u89c6\u9891 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u5fae\u535a\u5e16\u5b50 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u767e\u5ea6\u8d34\u5427\u5e16\u5b50 \uff5c \u767e\u5ea6\u8d34\u5427\u8bc4\u8bba\u56de\u590d\u722c\u866b  | \u77e5\u4e4e\u95ee\u7b54\u6587\u7ae0\uff5c\u8bc4\u8bba\u722c\u866b",
+        "score": 88.8,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 56920,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright",
+        "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+        "score": 87.3,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 93126,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "scrapy/scrapy",
+        "url": "https://github.com/scrapy/scrapy",
+        "description": "Scrapy, a fast high-level web crawling & scraping framework for Python.",
+        "score": 87.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc BSD-3-Clause licensed"
+        ],
+        "stars": 63242,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "getmaxun/maxun",
+        "url": "https://github.com/getmaxun/maxun",
+        "description": "\ud83d\udd25 The open-source no-code platform for web scraping, crawling, search and AI data extraction \u2022 Turn websites into structured APIs in minutes \ud83d\udd25 ",
+        "score": 87.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc AGPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 16598,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "apify/crawlee",
+        "url": "https://github.com/apify/crawlee",
+        "description": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+        "score": 83.0,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 24813,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "gocolly/colly",
+        "url": "https://github.com/gocolly/colly",
+        "description": "Elegant Scraper and Crawler Framework for Golang",
+        "score": 76.2,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 25380,
+        "language": "Go",
         "status": "scored"
       }
     ],
@@ -1409,7 +1409,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 34798,
+        "stars": 34799,
         "language": "PHP",
         "status": "scored"
       },
@@ -1423,7 +1423,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 29328,
+        "stars": 29332,
         "language": "Python",
         "status": "scored"
       },
@@ -1436,7 +1436,7 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 12351,
+        "stars": 12352,
         "language": "Python",
         "status": "scored"
       },
@@ -1450,7 +1450,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 16437,
+        "stars": 16538,
         "language": "C",
         "status": "scored"
       },
@@ -1458,7 +1458,7 @@
         "full_name": "stupside/castor",
         "url": "https://github.com/stupside/castor",
         "description": "Point it at any web page and it finds the video, extracts the stream, transcodes it and casts in real time to your TV. It even burns subtitles\u2026.",
-        "score": 75.8,
+        "score": 76.7,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\ud83d\ude80 One-click ready",
@@ -1466,7 +1466,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 1078,
+        "stars": 1346,
         "language": "Go",
         "status": "scored"
       },
@@ -1480,7 +1480,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 10087,
+        "stars": 10094,
         "language": "Python",
         "status": "scored"
       },
@@ -1493,7 +1493,7 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 18770,
+        "stars": 18773,
         "language": "Python",
         "status": "scored"
       },
@@ -1507,7 +1507,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 16605,
+        "stars": 16607,
         "language": "Python",
         "status": "scored"
       },
@@ -1521,7 +1521,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 31012,
+        "stars": 31045,
         "language": "Batchfile",
         "status": "scored"
       },
@@ -1534,7 +1534,7 @@
         "flags": [
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 27225,
+        "stars": 27227,
         "language": "Python",
         "status": "scored"
       }
@@ -1544,7 +1544,7 @@
         "full_name": "jamiepine/voicebox",
         "url": "https://github.com/jamiepine/voicebox",
         "description": "The open-source AI voice studio. Clone, dictate, create.",
-        "score": 97.5,
+        "score": 94.5,
         "verdict": "\ud83d\udc51 Legendary",
         "flags": [
           "\ud83d\ude80 One-click ready",
@@ -1552,7 +1552,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 43217,
+        "stars": 43503,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1566,7 +1566,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc GPL-3.0 licensed"
         ],
-        "stars": 121420,
+        "stars": 121465,
         "language": "Python",
         "status": "scored"
       },
@@ -1580,7 +1580,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 36499,
+        "stars": 36503,
         "language": "Python",
         "status": "scored"
       },
@@ -1595,7 +1595,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 164233,
+        "stars": 164242,
         "language": "Python",
         "status": "scored"
       },
@@ -1611,7 +1611,7 @@
           "\ud83d\udcdc MPL-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 45779,
+        "stars": 45781,
         "language": "Python",
         "status": "scored"
       },
@@ -1624,7 +1624,7 @@
         "flags": [
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 10707,
+        "stars": 10708,
         "language": "Python",
         "status": "scored"
       },
@@ -1637,7 +1637,7 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 4390,
+        "stars": 4391,
         "language": "HTML",
         "status": "scored"
       }
@@ -1655,7 +1655,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 101771,
+        "stars": 101781,
         "language": "Python",
         "status": "scored"
       },
@@ -1669,7 +1669,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 48902,
+        "stars": 48904,
         "language": "Julia",
         "status": "scored"
       },
@@ -1683,7 +1683,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 49226,
+        "stars": 49229,
         "language": "Python",
         "status": "scored"
       },
@@ -1696,7 +1696,7 @@
         "flags": [
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 39571,
+        "stars": 39839,
         "language": "Python",
         "status": "scored"
       },
@@ -1710,7 +1710,7 @@
           "\u26a0\ufe0f Might be abandoned",
           "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 36196,
+        "stars": 36204,
         "language": "Python",
         "status": "scored"
       }
@@ -1726,7 +1726,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc CC-BY-4.0 licensed"
         ],
-        "stars": 392489,
+        "stars": 392514,
         "language": "Python",
         "status": "scored"
       },
@@ -1739,7 +1739,7 @@
         "flags": [
           "\ud83d\udcdc CC0-1.0 licensed"
         ],
-        "stars": 486705,
+        "stars": 486796,
         "language": null,
         "status": "scored"
       },
@@ -1752,7 +1752,7 @@
         "flags": [
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 14445,
+        "stars": 14444,
         "language": "SCSS",
         "status": "scored"
       },
@@ -1760,12 +1760,12 @@
         "full_name": "pkuflyingpig/cs-self-learning",
         "url": "https://github.com/PKUFlyingPig/cs-self-learning",
         "description": "\u8ba1\u7b97\u673a\u81ea\u5b66\u6307\u5357",
-        "score": 71.0,
+        "score": 71.2,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 74129,
+        "stars": 74245,
         "language": "HTML",
         "status": "scored"
       },
@@ -1797,7 +1797,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 43344,
+        "stars": 43350,
         "language": "Python",
         "status": "scored"
       },
@@ -1811,7 +1811,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 451382,
+        "stars": 451424,
         "language": "Python",
         "status": "scored"
       },
@@ -1842,50 +1842,6 @@
         "status": "scored"
       }
     ],
-    "automation": [
-      {
-        "full_name": "n8n-io/n8n",
-        "url": "https://github.com/n8n-io/n8n",
-        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "score": 90.0,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed"
-        ],
-        "stars": 197058,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "kangarooking/cangjie-skill",
-        "url": "https://github.com/kangarooking/cangjie-skill",
-        "description": "\u628a\u4e66\u3001\u957f\u89c6\u9891\u3001\u64ad\u5ba2\u7b49\u9ad8\u4ef7\u503c\u5185\u5bb9\u84b8\u998f\u6210\u53ef\u6267\u884c\u7684 Agent Skills",
-        "score": 71.7,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed"
-        ],
-        "stars": 3812,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "tradesdontlie/tradingview-mcp",
-        "url": "https://github.com/tradesdontlie/tradingview-mcp",
-        "description": "AI-assisted TradingView chart analysis \u2014 connect Claude Code to your TradingView Desktop for personal workflow automation",
-        "score": 70.6,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed"
-        ],
-        "stars": 4481,
-        "language": "JavaScript",
-        "status": "scored"
-      }
-    ],
     "mobile": [
       {
         "full_name": "facebook/react-native",
@@ -1897,7 +1853,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 126232,
+        "stars": 126236,
         "language": "C++",
         "status": "scored"
       },
@@ -1911,8 +1867,22 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 177826,
+        "stars": 177833,
         "language": "Dart",
+        "status": "scored"
+      },
+      {
+        "full_name": "pedroshakoor/grok-build-ios",
+        "url": "https://github.com/Pedroshakoor/grok-build-ios",
+        "description": null,
+        "score": 44.0,
+        "verdict": "\ud83e\udd49 Decent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 9,
+        "language": "Swift",
         "status": "scored"
       },
       {
@@ -1930,6 +1900,50 @@
         "status": "scored"
       }
     ],
+    "automation": [
+      {
+        "full_name": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "score": 90.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 197094,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "kangarooking/cangjie-skill",
+        "url": "https://github.com/kangarooking/cangjie-skill",
+        "description": "\u628a\u4e66\u3001\u957f\u89c6\u9891\u3001\u64ad\u5ba2\u7b49\u9ad8\u4ef7\u503c\u5185\u5bb9\u84b8\u998f\u6210\u53ef\u6267\u884c\u7684 Agent Skills",
+        "score": 71.7,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 3883,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "tradesdontlie/tradingview-mcp",
+        "url": "https://github.com/tradesdontlie/tradingview-mcp",
+        "description": "AI-assisted TradingView chart analysis \u2014 connect Claude Code to your TradingView Desktop for personal workflow automation",
+        "score": 70.6,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 4488,
+        "language": "JavaScript",
+        "status": "scored"
+      }
+    ],
     "self-hosted": [
       {
         "full_name": "awesome-selfhosted/awesome-selfhosted",
@@ -1941,7 +1955,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 306730,
+        "stars": 306813,
         "language": null,
         "status": "scored"
       },
@@ -1955,7 +1969,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 19474,
+        "stars": 19477,
         "language": "C#",
         "status": "scored"
       },
