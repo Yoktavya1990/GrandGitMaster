@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20 07:08 UTC",
+  "generated_at": "2026-08-20 13:12 UTC",
   "stats": {
-    "total": 116,
-    "scored": 115,
+    "total": 121,
+    "scored": 120,
     "pending": 0,
     "from_x": 2
   },
@@ -30,9 +30,9 @@
         "ui",
         "webui"
       ],
-      "stars": 149313,
-      "forks": 21776,
-      "open_issues": 378,
+      "stars": 149346,
+      "forks": 21779,
+      "open_issues": 379,
       "license": "Other",
       "homepage": "https://openwebui.com",
       "archived": 0,
@@ -58,8 +58,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6487954,
-      "enriched_at": 1787209674.375678,
+      "first_seen": 1787231483.093534,
+      "enriched_at": 1787231541.657892,
       "error": null
     },
     {
@@ -89,14 +89,14 @@
         "trade",
         "trading"
       ],
-      "stars": 43674,
-      "forks": 8810,
-      "open_issues": 786,
+      "stars": 43670,
+      "forks": 8811,
+      "open_issues": 794,
       "license": "MIT",
       "homepage": "https://docs.ccxt.com",
       "archived": 0,
       "created_at": "2017-05-14T15:41:56Z",
-      "pushed_at": "2026-08-20T05:41:45Z",
+      "pushed_at": "2026-08-20T11:25:59Z",
       "category": "apis",
       "score": 98.1,
       "breakdown": {
@@ -117,8 +117,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6857264,
-      "enriched_at": 1787209692.762652,
+      "first_seen": 1787231483.120043,
+      "enriched_at": 1787231554.3665307,
       "error": null
     },
     {
@@ -128,14 +128,14 @@
       "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
       "language": "Python",
       "topics": [],
-      "stars": 78737,
-      "forks": 8159,
+      "stars": 78761,
+      "forks": 8163,
       "open_issues": 152,
       "license": "Apache-2.0",
       "homepage": "https://crawl4ai.com",
       "archived": 0,
       "created_at": "2024-05-09T09:48:50Z",
-      "pushed_at": "2026-08-20T06:37:45Z",
+      "pushed_at": "2026-08-20T09:23:36Z",
       "category": "scraping-data",
       "score": 96.3,
       "breakdown": {
@@ -156,8 +156,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6509418,
-      "enriched_at": 1787209675.343928,
+      "first_seen": 1787231483.095062,
+      "enriched_at": 1787231542.3997285,
       "error": null
     },
     {
@@ -174,14 +174,14 @@
         "dsh-plugin",
         "self-evolving"
       ],
-      "stars": 30531,
-      "forks": 2360,
-      "open_issues": 469,
+      "stars": 30783,
+      "forks": 2375,
+      "open_issues": 471,
       "license": "AGPL-3.0",
       "homepage": "https://openviking.ai/",
       "archived": 0,
       "created_at": "2026-01-05T07:11:17Z",
-      "pushed_at": "2026-08-20T06:43:06Z",
+      "pushed_at": "2026-08-20T13:07:13Z",
       "category": "ai-agents",
       "score": 95.8,
       "breakdown": {
@@ -202,8 +202,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "trending",
-      "first_seen": 1787209649.5903628,
-      "enriched_at": 1787209702.91235,
+      "first_seen": 1787231520.839079,
+      "enriched_at": 1787231565.046443,
       "error": null
     },
     {
@@ -228,14 +228,14 @@
         "universal",
         "vercel"
       ],
-      "stars": 141876,
-      "forks": 31771,
-      "open_issues": 4051,
+      "stars": 141883,
+      "forks": 31774,
+      "open_issues": 4059,
       "license": "MIT",
       "homepage": "https://nextjs.org",
       "archived": 0,
       "created_at": "2016-10-05T23:32:51Z",
-      "pushed_at": "2026-08-20T06:57:13Z",
+      "pushed_at": "2026-08-20T12:49:00Z",
       "category": "web-dev",
       "score": 95.0,
       "breakdown": {
@@ -256,8 +256,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6560264,
-      "enriched_at": 1787209677.7480392,
+      "first_seen": 1787231483.0985982,
+      "enriched_at": 1787231544.321914,
       "error": null
     },
     {
@@ -276,14 +276,14 @@
         "python",
         "tensor"
       ],
-      "stars": 102493,
-      "forks": 28927,
-      "open_issues": 17140,
+      "stars": 102496,
+      "forks": 28930,
+      "open_issues": 17175,
       "license": "Other",
       "homepage": "https://pytorch.org",
       "archived": 0,
       "created_at": "2016-08-13T05:26:41Z",
-      "pushed_at": "2026-08-20T07:07:23Z",
+      "pushed_at": "2026-08-20T13:12:17Z",
       "category": "data-ml",
       "score": 95.0,
       "breakdown": {
@@ -304,8 +304,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6621428,
-      "enriched_at": 1787209681.9521163,
+      "first_seen": 1787231483.1027355,
+      "enriched_at": 1787231546.8795588,
       "error": null
     },
     {
@@ -326,7 +326,7 @@
         "vim",
         "zsh"
       ],
-      "stars": 82591,
+      "stars": 82593,
       "forks": 2855,
       "open_issues": 327,
       "license": "MIT",
@@ -354,8 +354,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6539342,
-      "enriched_at": 1787209676.7843883,
+      "first_seen": 1787231483.0971048,
+      "enriched_at": 1787231543.6895666,
       "error": null
     },
     {
@@ -386,14 +386,14 @@
         "workflow",
         "workflow-automation"
       ],
-      "stars": 201245,
-      "forks": 60241,
-      "open_issues": 1079,
+      "stars": 201309,
+      "forks": 60243,
+      "open_issues": 1065,
       "license": "Other",
       "homepage": "https://n8n.io",
       "archived": 0,
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-08-20T07:04:17Z",
+      "pushed_at": "2026-08-20T13:11:22Z",
       "category": "automation",
       "score": 90.0,
       "breakdown": {
@@ -412,8 +412,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6598766,
-      "enriched_at": 1787209680.629655,
+      "first_seen": 1787231483.1013632,
+      "enriched_at": 1787231546.1854064,
       "error": null
     },
     {
@@ -430,14 +430,14 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "stars": 128536,
-      "forks": 15150,
+      "stars": 128577,
+      "forks": 15158,
       "open_issues": 4655,
       "license": "GPL-3.0",
       "homepage": "https://www.comfy.org/",
       "archived": 0,
       "created_at": "2023-01-17T03:15:56Z",
-      "pushed_at": "2026-08-20T04:00:58Z",
+      "pushed_at": "2026-08-20T10:46:16Z",
       "category": "ai-media",
       "score": 90.0,
       "breakdown": {
@@ -456,8 +456,67 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6222339,
-      "enriched_at": 1787209661.3895602,
+      "first_seen": 1787231483.07535,
+      "enriched_at": 1787231531.8779087,
+      "error": null
+    },
+    {
+      "full_name": "tencent/ai-infra-guard",
+      "display_name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-security",
+        "ai-infra",
+        "ai-red-teaming",
+        "ai-security",
+        "llm",
+        "llm-evaluation",
+        "llm-jailbreak",
+        "llm-security",
+        "mcp-scan",
+        "openclaw-security",
+        "prompt-injection",
+        "prompt-security",
+        "scanner",
+        "security",
+        "security-tools",
+        "skill-scanner",
+        "skills-security",
+        "vulnerability"
+      ],
+      "stars": 4775,
+      "forks": 472,
+      "open_issues": 21,
+      "license": "Apache-2.0",
+      "homepage": "https://tencent.github.io/AI-Infra-Guard/",
+      "archived": 0,
+      "created_at": "2024-12-25T06:39:30Z",
+      "pushed_at": "2026-08-19T10:21:00Z",
+      "category": "security",
+      "score": 88.1,
+      "breakdown": {
+        "popularity": 18.4,
+        "freshness": 20.0,
+        "maintenance": 15.0,
+        "community": 6.7,
+        "docs": 15.0,
+        "one_click": 13.0
+      },
+      "verdict": "\ud83d\udc51 Legendary",
+      "flags": [
+        "\ud83d\ude80 One-click ready",
+        "\u2705 Actively maintained",
+        "\ud83d\udcdc Apache-2.0 licensed",
+        "\ud83c\udf31 Beginner friendly"
+      ],
+      "status": "scored",
+      "source": "scout",
+      "source_ref": "trending",
+      "first_seen": 1787231520.8411093,
+      "enriched_at": 1787231565.9978967,
       "error": null
     },
     {
@@ -476,14 +535,14 @@
         "react",
         "react-native"
       ],
-      "stars": 126368,
+      "stars": 126369,
       "forks": 25221,
-      "open_issues": 1051,
+      "open_issues": 1052,
       "license": "MIT",
       "homepage": "https://reactnative.dev",
       "archived": 0,
       "created_at": "2015-01-09T18:10:16Z",
-      "pushed_at": "2026-08-19T19:43:29Z",
+      "pushed_at": "2026-08-20T11:22:08Z",
       "category": "mobile",
       "score": 88.0,
       "breakdown": {
@@ -502,8 +561,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.658858,
-      "enriched_at": 1787209680.09066,
+      "first_seen": 1787231483.1006737,
+      "enriched_at": 1787231545.7936392,
       "error": null
     },
     {
@@ -518,13 +577,13 @@
         "php"
       ],
       "stars": 34875,
-      "forks": 11953,
-      "open_issues": 109,
+      "forks": 11955,
+      "open_issues": 100,
       "license": "MIT",
       "homepage": "https://laravel.com",
       "archived": 0,
       "created_at": "2013-01-10T21:27:28Z",
-      "pushed_at": "2026-08-18T20:33:37Z",
+      "pushed_at": "2026-08-20T13:04:40Z",
       "category": "other",
       "score": 87.7,
       "breakdown": {
@@ -543,8 +602,8 @@
       "status": "scored",
       "source": "x-sleuth",
       "source_ref": "2073430710740754598",
-      "first_seen": 1787209659.2098727,
-      "enriched_at": 1787209718.852041,
+      "first_seen": 1787231530.118718,
+      "enriched_at": 1787231574.9591756,
       "error": null
     },
     {
@@ -563,8 +622,8 @@
         "self-hosted",
         "selfhosted"
       ],
-      "stars": 313826,
-      "forks": 14739,
+      "stars": 313881,
+      "forks": 14740,
       "open_issues": 0,
       "license": "Other",
       "homepage": "https://awesome-selfhosted.net/",
@@ -589,8 +648,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6663275,
-      "enriched_at": 1787209683.7984593,
+      "first_seen": 1787231483.105662,
+      "enriched_at": 1787231548.2063649,
       "error": null
     },
     {
@@ -606,8 +665,8 @@
         "list",
         "resource"
       ],
-      "stars": 394826,
-      "forks": 66671,
+      "stars": 394853,
+      "forks": 66670,
       "open_issues": 81,
       "license": "CC-BY-4.0",
       "homepage": "https://ebookfoundation.github.io/free-programming-books/",
@@ -632,66 +691,8 @@
       "status": "scored",
       "source": "ingest",
       "source_ref": "seeds/repos.txt",
-      "first_seen": 1787209601.6693428,
-      "enriched_at": 1787209685.2193806,
-      "error": null
-    },
-    {
-      "full_name": "mukul975/anthropic-cybersecurity-skills",
-      "display_name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "cloud-security",
-        "cybersecurity",
-        "devsecops",
-        "ethical-hacking",
-        "incident-response",
-        "infosec",
-        "llm",
-        "malware-analysis",
-        "mcp",
-        "mitre-attack",
-        "nist-csf",
-        "osint",
-        "penetration-testing",
-        "red-team",
-        "security",
-        "security-automation",
-        "threat-hunting",
-        "threat-intelligence"
-      ],
-      "stars": 30053,
-      "forks": 3565,
-      "open_issues": 48,
-      "license": "Apache-2.0",
-      "homepage": "https://mahipal.engineer/Anthropic-Cybersecurity-Skills/",
-      "archived": 0,
-      "created_at": "2026-02-25T09:47:50Z",
-      "pushed_at": "2026-08-08T14:55:19Z",
-      "category": "security",
-      "score": 78.3,
-      "breakdown": {
-        "popularity": 22.4,
-        "freshness": 17.0,
-        "maintenance": 15.0,
-        "community": 8.9,
-        "docs": 15.0,
-        "one_click": 0.0
-      },
-      "verdict": "\ud83e\udd47 Excellent",
-      "flags": [
-        "\u2705 Actively maintained",
-        "\ud83d\udcdc Apache-2.0 licensed"
-      ],
-      "status": "scored",
-      "source": "scout",
-      "source_ref": "trending",
-      "first_seen": 1787209649.5929852,
-      "enriched_at": 1787209703.889837,
+      "first_seen": 1787231483.1077352,
+      "enriched_at": 1787231549.1799421,
       "error": null
     },
     {
@@ -711,7 +712,7 @@
         "sierra",
         "static-analysis"
       ],
-      "stars": 36,
+      "stars": 38,
       "forks": 1,
       "open_issues": 0,
       "license": "Other",
@@ -720,9 +721,9 @@
       "created_at": "2026-07-16T19:21:52Z",
       "pushed_at": "2026-08-19T00:39:22Z",
       "category": "games",
-      "score": 55.6,
+      "score": 55.8,
       "breakdown": {
-        "popularity": 7.8,
+        "popularity": 8.0,
         "freshness": 20.0,
         "maintenance": 15.0,
         "community": 0.8,
@@ -737,8 +738,8 @@
       "status": "scored",
       "source": "scout",
       "source_ref": "hackernews",
-      "first_seen": 1787209650.967708,
-      "enriched_at": 1787209715.2420862,
+      "first_seen": 1787231522.4732869,
+      "enriched_at": 1787231573.3127365,
       "error": null
     }
   ],
@@ -756,7 +757,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 149313,
+        "stars": 149346,
         "language": "Python",
         "status": "scored"
       },
@@ -772,7 +773,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 66032,
+        "stars": 66257,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -788,8 +789,24 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 111693,
+        "stars": 112402,
         "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "juliusbrussee/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman",
+        "description": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
+        "score": 93.4,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 99376,
+        "language": "Go",
         "status": "scored"
       },
       {
@@ -804,7 +821,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 179010,
+        "stars": 179036,
         "language": "Go",
         "status": "scored"
       },
@@ -820,7 +837,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 33127,
+        "stars": 33191,
         "language": "Rust",
         "status": "scored"
       },
@@ -836,7 +853,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 124782,
+        "stars": 124825,
         "language": "C++",
         "status": "scored"
       },
@@ -852,7 +869,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 9647,
+        "stars": 9730,
         "language": "Python",
         "status": "scored"
       },
@@ -868,7 +885,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 6640,
+        "stars": 6642,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -882,23 +899,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 144604,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "atilaahmettaner/tradingview-mcp",
-        "url": "https://github.com/atilaahmettaner/tradingview-mcp",
-        "description": "TradingView MCP server \u2014 real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
-        "score": 85.5,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 4125,
+        "stars": 144626,
         "language": "Python",
         "status": "scored"
       }
@@ -916,8 +917,40 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 141876,
+        "stars": 141883,
         "language": "JavaScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "makeplane/plane",
+        "url": "https://github.com/makeplane/plane",
+        "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+        "score": 93.1,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc AGPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 56240,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "posthog/posthog",
+        "url": "https://github.com/PostHog/posthog",
+        "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+        "score": 92.7,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 37831,
+        "language": "Python",
         "status": "scored"
       },
       {
@@ -932,7 +965,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 112021,
+        "stars": 112123,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -960,7 +993,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc AGPL-3.0 licensed"
         ],
-        "stars": 48618,
+        "stars": 48633,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -974,7 +1007,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 45846,
+        "stars": 45865,
         "language": "JavaScript",
         "status": "scored"
       },
@@ -988,22 +1021,8 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 78337,
+        "stars": 78426,
         "language": "JavaScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "marceloprates/prettymaps",
-        "url": "https://github.com/marceloprates/prettymaps",
-        "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
-        "score": 80.7,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\ud83d\udcdc AGPL-3.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 13327,
-        "language": "Python",
         "status": "scored"
       },
       {
@@ -1016,7 +1035,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 17001,
+        "stars": 17007,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1030,23 +1049,8 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc GPL-3.0 licensed"
         ],
-        "stars": 15840,
+        "stars": 15842,
         "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "imputnet/cobalt",
-        "url": "https://github.com/imputnet/cobalt",
-        "description": "best way to save what you love",
-        "score": 78.0,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\ud83d\udcdc AGPL-3.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 42156,
-        "language": "Svelte",
         "status": "scored"
       }
     ],
@@ -1063,7 +1067,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 30531,
+        "stars": 30783,
         "language": "Python",
         "status": "scored"
       },
@@ -1079,7 +1083,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 109806,
+        "stars": 109854,
         "language": "Python",
         "status": "scored"
       },
@@ -1093,7 +1097,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 57355,
+        "stars": 57375,
         "language": "Python",
         "status": "scored"
       },
@@ -1107,7 +1111,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 274465,
+        "stars": 274670,
         "language": "Shell",
         "status": "scored"
       },
@@ -1121,7 +1125,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 224330,
+        "stars": 225007,
         "language": "Shell",
         "status": "scored"
       },
@@ -1135,7 +1139,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 49824,
+        "stars": 49825,
         "language": "Ruby",
         "status": "scored"
       },
@@ -1151,7 +1155,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 3806,
+        "stars": 3831,
         "language": "Rust",
         "status": "scored"
       },
@@ -1165,8 +1169,24 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 11008,
+        "stars": 11060,
         "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "copilotkit/openbot",
+        "url": "https://github.com/CopilotKit/openbot",
+        "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+        "score": 78.4,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 1152,
+        "language": "TypeScript",
         "status": "scored"
       },
       {
@@ -1179,23 +1199,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 10148,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "copilotkit/openbot",
-        "url": "https://github.com/CopilotKit/openbot",
-        "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-        "score": 77.5,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 863,
+        "stars": 10195,
         "language": "TypeScript",
         "status": "scored"
       }
@@ -1213,7 +1217,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 78737,
+        "stars": 78761,
         "language": "Python",
         "status": "scored"
       },
@@ -1229,7 +1233,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 29756,
+        "stars": 29761,
         "language": "Python",
         "status": "scored"
       },
@@ -1245,7 +1249,7 @@
           "\ud83d\udcdc BSD-3-Clause licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 75371,
+        "stars": 75453,
         "language": "Python",
         "status": "scored"
       },
@@ -1259,7 +1263,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc AGPL-3.0 licensed"
         ],
-        "stars": 169782,
+        "stars": 169893,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1275,7 +1279,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 63146,
+        "stars": 63196,
         "language": "Python",
         "status": "scored"
       },
@@ -1289,7 +1293,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 94781,
+        "stars": 94802,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1305,7 +1309,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 17205,
+        "stars": 17222,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1319,7 +1323,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 63968,
+        "stars": 63977,
         "language": "Python",
         "status": "scored"
       },
@@ -1333,7 +1337,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 25436,
+        "stars": 25437,
         "language": "Go",
         "status": "scored"
       },
@@ -1347,7 +1351,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 25442,
+        "stars": 25446,
         "language": "TypeScript",
         "status": "scored"
       }
@@ -1365,7 +1369,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 82591,
+        "stars": 82593,
         "language": "Go",
         "status": "scored"
       },
@@ -1380,7 +1384,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 45897,
+        "stars": 45899,
         "language": "Go",
         "status": "scored"
       },
@@ -1395,7 +1399,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 76730,
+        "stars": 76763,
         "language": "Rust",
         "status": "scored"
       },
@@ -1409,7 +1413,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 49442,
+        "stars": 49701,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -1423,7 +1427,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 72945,
+        "stars": 72953,
         "language": "PHP",
         "status": "scored"
       },
@@ -1437,7 +1441,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 60219,
+        "stars": 60225,
         "language": "Rust",
         "status": "scored"
       },
@@ -1445,13 +1449,13 @@
         "full_name": "basecamp/omarchy",
         "url": "https://github.com/basecamp/omarchy",
         "description": "Beautiful, Modern & Opinionated Linux",
-        "score": 77.7,
+        "score": 77.8,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 26855,
+        "stars": 26934,
         "language": "Shell",
         "status": "scored"
       },
@@ -1459,44 +1463,14 @@
         "full_name": "onecli/onecli",
         "url": "https://github.com/onecli/onecli",
         "description": "Open-source sandboxed agent harness for teams. Giving every employee a secured personal agent.",
-        "score": 76.2,
+        "score": 76.3,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\u2705 Actively maintained",
           "\ud83d\udcdc Apache-2.0 licensed"
         ],
-        "stars": 3186,
+        "stars": 3250,
         "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "therepanic/openleetcode",
-        "url": "https://github.com/therepanic/openleetcode",
-        "description": "we have democratized the LeetCode tests",
-        "score": 70.9,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\ud83d\ude80 One-click ready",
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Unlicense licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 157,
-        "language": "Haskell",
-        "status": "scored"
-      },
-      {
-        "full_name": "atillalab/site-health",
-        "url": "https://github.com/atillalab/site-health",
-        "description": "A fast CLI for checking website and domain health.",
-        "score": 53.0,
-        "verdict": "\ud83e\udd49 Decent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed"
-        ],
-        "stars": 15,
-        "language": "Go",
         "status": "scored"
       }
     ],
@@ -1511,7 +1485,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc GPL-3.0 licensed"
         ],
-        "stars": 128536,
+        "stars": 128577,
         "language": "Python",
         "status": "scored"
       },
@@ -1526,7 +1500,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 73952,
+        "stars": 74011,
         "language": "Python",
         "status": "scored"
       },
@@ -1541,7 +1515,7 @@
           "\ud83d\udcdc AGPL-3.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 164590,
+        "stars": 164596,
         "language": "Python",
         "status": "scored"
       },
@@ -1554,7 +1528,7 @@
         "flags": [
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 37676,
+        "stars": 37687,
         "language": "Python",
         "status": "scored"
       },
@@ -1570,7 +1544,7 @@
           "\ud83d\udcdc MPL-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 45919,
+        "stars": 45923,
         "language": "Python",
         "status": "scored"
       },
@@ -1620,13 +1594,13 @@
         "full_name": "facefusion/facefusion",
         "url": "https://github.com/facefusion/facefusion",
         "description": "Industry leading face manipulation platform",
-        "score": 80.6,
+        "score": 83.6,
         "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 29643,
+        "stars": 29647,
         "language": "Python",
         "status": "scored"
       },
@@ -1639,7 +1613,7 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 18946,
+        "stars": 18948,
         "language": "Python",
         "status": "scored"
       },
@@ -1653,7 +1627,7 @@
           "\ud83d\udcdc Apache-2.0 licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 16866,
+        "stars": 16870,
         "language": "Python",
         "status": "scored"
       },
@@ -1666,7 +1640,7 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 12443,
+        "stars": 12444,
         "language": "Python",
         "status": "scored"
       },
@@ -1684,75 +1658,74 @@
         "status": "scored"
       }
     ],
-    "self-hosted": [
+    "mobile": [
       {
-        "full_name": "awesome-selfhosted/awesome-selfhosted",
-        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "full_name": "facebook/react-native",
+        "url": "https://github.com/react/react-native",
+        "description": "A framework for building native applications using React",
+        "score": 88.0,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 126369,
+        "language": "C++",
+        "status": "scored"
+      },
+      {
+        "full_name": "flutter/flutter",
+        "url": "https://github.com/flutter/flutter",
+        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
         "score": 85.0,
         "verdict": "\ud83d\udc51 Legendary",
         "flags": [
           "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed"
+          "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 313826,
-        "language": null,
+        "stars": 178528,
+        "language": "Dart",
         "status": "scored"
       },
       {
-        "full_name": "bitwarden/server",
-        "url": "https://github.com/bitwarden/server",
-        "description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
-        "score": 81.6,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed"
-        ],
-        "stars": 19904,
-        "language": "C#",
-        "status": "scored"
-      },
-      {
-        "full_name": "superradcompany/microsandbox",
-        "url": "https://github.com/superradcompany/microsandbox",
-        "description": "\ud83e\uddf1 easy fast local-first microVM runtime and library",
-        "score": 81.0,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 7805,
-        "language": "Rust",
-        "status": "scored"
-      },
-      {
-        "full_name": "lightningpixel/modly",
-        "url": "https://github.com/lightningpixel/modly",
-        "description": "Desktop app to generate 3D models from images or prompt using local AI \u2014 runs entirely on your GPU",
-        "score": 79.3,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Other licensed"
-        ],
-        "stars": 6954,
-        "language": "TypeScript",
-        "status": "scored"
-      },
-      {
-        "full_name": "sadservers/sadservers",
-        "url": "https://github.com/SadServers/sadservers",
-        "description": "SadServers: Linux & DevOps Troubleshooting Scenarios SaaS",
-        "score": 68.6,
+        "full_name": "mahlernim/google-timeline-visualizer",
+        "url": "https://github.com/mahlernim/google-timeline-visualizer",
+        "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+        "score": 66.2,
         "verdict": "\ud83e\udd48 Solid",
         "flags": [
           "\u2705 Actively maintained",
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 1010,
+        "language": "Kotlin",
+        "status": "scored"
+      },
+      {
+        "full_name": "ofdryads/miniageos",
+        "url": "https://github.com/ofdryads/miniageos",
+        "description": "Create a \"dumbphone\" version of LineageOS for your Google Pixel phone",
+        "score": 37.4,
+        "verdict": "\ud83e\uddea Experimental",
+        "flags": [
+          "\ud83d\udcdc MIT licensed"
+        ],
+        "stars": 2,
+        "language": "Shell",
+        "status": "scored"
+      },
+      {
+        "full_name": "shobhitagarwal1612/buyhatke",
+        "url": "https://github.com/shobhitagarwal1612/Buyhatke",
+        "description": "Implements the AutoCoupons feature in Android which is currently up and running successfully on the desktop through the Buyhatke chrome extension (link: http://compare.buyhatke.com/extension.php)",
+        "score": 17.3,
+        "verdict": "\ud83e\uddea Experimental",
+        "flags": [
+          "\u26a0\ufe0f Might be abandoned",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 2967,
-        "language": "HCL",
+        "stars": 1,
+        "language": "Java",
         "status": "scored"
       }
     ],
@@ -1769,7 +1742,7 @@
           "\ud83d\udcdc MIT licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 43674,
+        "stars": 43670,
         "language": "Python",
         "status": "scored"
       },
@@ -1783,7 +1756,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 466387,
+        "stars": 466783,
         "language": "Python",
         "status": "scored"
       },
@@ -1796,7 +1769,7 @@
         "flags": [
           "\ud83d\udcdc MIT licensed"
         ],
-        "stars": 1788,
+        "stars": 1789,
         "language": "Python",
         "status": "scored"
       },
@@ -1804,7 +1777,7 @@
         "full_name": "venelinkochev/apifinder",
         "url": "https://github.com/venelinkochev/apifinder",
         "description": "A curated, open-source collection of public APIs",
-        "score": 57.4,
+        "score": 57.5,
         "verdict": "\ud83e\udd48 Solid",
         "flags": [
           "\ud83d\udcdc MIT licensed"
@@ -1827,7 +1800,7 @@
           "\ud83d\udcdc Other licensed",
           "\ud83c\udf31 Beginner friendly"
         ],
-        "stars": 102493,
+        "stars": 102496,
         "language": "Python",
         "status": "scored"
       },
@@ -1846,17 +1819,17 @@
         "status": "scored"
       },
       {
-        "full_name": "nautechsystems/nautilus_trader",
-        "url": "https://github.com/nautechsystems/nautilus_trader",
-        "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "score": 85.9,
-        "verdict": "\ud83d\udc51 Legendary",
+        "full_name": "modular/modular",
+        "url": "https://github.com/modular/modular",
+        "description": "The Modular Platform (includes MAX & Mojo)",
+        "score": 83.9,
+        "verdict": "\ud83e\udd47 Excellent",
         "flags": [
           "\u2705 Actively maintained",
-          "\ud83d\udcdc LGPL-3.0 licensed"
+          "\ud83d\udcdc Other licensed"
         ],
-        "stars": 26555,
-        "language": "Rust",
+        "stars": 27546,
+        "language": "Mojo",
         "status": "scored"
       },
       {
@@ -1869,7 +1842,7 @@
           "\u26a0\ufe0f Might be abandoned",
           "\ud83d\udcdc BSD-3-Clause licensed"
         ],
-        "stars": 36525,
+        "stars": 36527,
         "language": "Python",
         "status": "scored"
       }
@@ -1885,7 +1858,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc CC-BY-4.0 licensed"
         ],
-        "stars": 394826,
+        "stars": 394853,
         "language": "Python",
         "status": "scored"
       },
@@ -1899,7 +1872,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc CC0-1.0 licensed"
         ],
-        "stars": 497925,
+        "stars": 498060,
         "language": null,
         "status": "scored"
       },
@@ -1913,7 +1886,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 14454,
+        "stars": 14455,
         "language": "SCSS",
         "status": "scored"
       },
@@ -1932,47 +1905,108 @@
         "status": "scored"
       }
     ],
-    "mobile": [
+    "self-hosted": [
       {
-        "full_name": "facebook/react-native",
-        "url": "https://github.com/react/react-native",
-        "description": "A framework for building native applications using React",
-        "score": 88.0,
-        "verdict": "\ud83d\udc51 Legendary",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc MIT licensed"
-        ],
-        "stars": 126368,
-        "language": "C++",
-        "status": "scored"
-      },
-      {
-        "full_name": "flutter/flutter",
-        "url": "https://github.com/flutter/flutter",
-        "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "full_name": "awesome-selfhosted/awesome-selfhosted",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
         "score": 85.0,
         "verdict": "\ud83d\udc51 Legendary",
         "flags": [
           "\u2705 Actively maintained",
-          "\ud83d\udcdc BSD-3-Clause licensed"
+          "\ud83d\udcdc Other licensed"
         ],
-        "stars": 178510,
-        "language": "Dart",
+        "stars": 313881,
+        "language": null,
         "status": "scored"
       },
       {
-        "full_name": "shobhitagarwal1612/buyhatke",
-        "url": "https://github.com/shobhitagarwal1612/Buyhatke",
-        "description": "Implements the AutoCoupons feature in Android which is currently up and running successfully on the desktop through the Buyhatke chrome extension (link: http://compare.buyhatke.com/extension.php)",
-        "score": 17.3,
-        "verdict": "\ud83e\uddea Experimental",
+        "full_name": "bitwarden/server",
+        "url": "https://github.com/bitwarden/server",
+        "description": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+        "score": 81.6,
+        "verdict": "\ud83e\udd47 Excellent",
         "flags": [
-          "\u26a0\ufe0f Might be abandoned",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 19905,
+        "language": "C#",
+        "status": "scored"
+      },
+      {
+        "full_name": "lightningpixel/modly",
+        "url": "https://github.com/lightningpixel/modly",
+        "description": "Desktop app to generate 3D models from images or prompt using local AI \u2014 runs entirely on your GPU",
+        "score": 79.3,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Other licensed"
+        ],
+        "stars": 6987,
+        "language": "TypeScript",
+        "status": "scored"
+      },
+      {
+        "full_name": "sadservers/sadservers",
+        "url": "https://github.com/SadServers/sadservers",
+        "description": "SadServers: Linux & DevOps Troubleshooting Scenarios SaaS",
+        "score": 68.6,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\u2705 Actively maintained",
           "\ud83d\udeab No license \u2014 careful using this commercially"
         ],
-        "stars": 1,
-        "language": "Java",
+        "stars": 2968,
+        "language": "HCL",
+        "status": "scored"
+      }
+    ],
+    "security": [
+      {
+        "full_name": "tencent/ai-infra-guard",
+        "url": "https://github.com/Tencent/AI-Infra-Guard",
+        "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+        "score": 88.1,
+        "verdict": "\ud83d\udc51 Legendary",
+        "flags": [
+          "\ud83d\ude80 One-click ready",
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 4775,
+        "language": "Python",
+        "status": "scored"
+      },
+      {
+        "full_name": "aprilnea/openlogi",
+        "url": "https://github.com/AprilNEA/OpenLogi",
+        "description": "\u26a1\ufe0fA native, local-first alternative to Logitech Options+, written in Rust \ud83e\udd80 \u2014 remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+        "score": 81.4,
+        "verdict": "\ud83e\udd47 Excellent",
+        "flags": [
+          "\u2705 Actively maintained",
+          "\ud83d\udcdc Apache-2.0 licensed"
+        ],
+        "stars": 11164,
+        "language": "Rust",
+        "status": "scored"
+      },
+      {
+        "full_name": "megadose/holehe",
+        "url": "https://github.com/megadose/holehe",
+        "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "score": 57.8,
+        "verdict": "\ud83e\udd48 Solid",
+        "flags": [
+          "\u26a0\ufe0f Might be abandoned",
+          "\ud83d\udcdc GPL-3.0 licensed",
+          "\ud83c\udf31 Beginner friendly"
+        ],
+        "stars": 13789,
+        "language": "Python",
         "status": "scored"
       }
     ],
@@ -1987,7 +2021,7 @@
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 201245,
+        "stars": 201309,
         "language": "TypeScript",
         "status": "scored"
       },
@@ -2000,39 +2034,8 @@
         "flags": [
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 5751,
+        "stars": 5754,
         "language": "JavaScript",
-        "status": "scored"
-      }
-    ],
-    "security": [
-      {
-        "full_name": "mukul975/anthropic-cybersecurity-skills",
-        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-        "description": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
-        "score": 78.3,
-        "verdict": "\ud83e\udd47 Excellent",
-        "flags": [
-          "\u2705 Actively maintained",
-          "\ud83d\udcdc Apache-2.0 licensed"
-        ],
-        "stars": 30053,
-        "language": "Python",
-        "status": "scored"
-      },
-      {
-        "full_name": "megadose/holehe",
-        "url": "https://github.com/megadose/holehe",
-        "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-        "score": 57.8,
-        "verdict": "\ud83e\udd48 Solid",
-        "flags": [
-          "\u26a0\ufe0f Might be abandoned",
-          "\ud83d\udcdc GPL-3.0 licensed",
-          "\ud83c\udf31 Beginner friendly"
-        ],
-        "stars": 13766,
-        "language": "Python",
         "status": "scored"
       }
     ],
@@ -2041,13 +2044,13 @@
         "full_name": "katiahayati/lucasartsifier",
         "url": "https://github.com/katiahayati/lucasartsifier",
         "description": "Static analysis for Sierra adventure games: finds softlocks by abstract interpretation of decompiled SCI scripts, derives and verifies guards, recompiles them into the game",
-        "score": 55.6,
+        "score": 55.8,
         "verdict": "\ud83e\udd48 Solid",
         "flags": [
           "\u2705 Actively maintained",
           "\ud83d\udcdc Other licensed"
         ],
-        "stars": 36,
+        "stars": 38,
         "language": "Python",
         "status": "scored"
       }
