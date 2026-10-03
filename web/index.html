@@ -426,10 +426,18 @@ function champToolCard(slug){
 }
 
 // ——— free-AI settings (stored on device only) ———
+// Free model IDs rotate constantly, so each provider gets a fallback CHAIN
+// (not a single hardcoded ID). OpenRouter's "openrouter/free" is their own
+// free-models auto-router: it always points at a live free model, so it can't rot.
 const PROVIDERS = {
-  openrouter: { url:"https://openrouter.ai/api/v1/chat/completions", model:"meta-llama/llama-3.3-70b-instruct:free" },
-  groq:       { url:"https://api.groq.com/openai/v1/chat/completions", model:"llama-3.3-70b-versatile" },
+  openrouter: { url:"https://openrouter.ai/api/v1/chat/completions",
+    models:["openrouter/free","google/gemma-4-31b-it:free","qwen/qwen3.8-27b:free","nvidia/nemotron-3-super-120b-a12b:free"] },
+  groq:       { url:"https://api.groq.com/openai/v1/chat/completions",
+    models:["llama-3.3-70b-versatile","openai/gpt-oss-120b","llama-3.1-8b-instant"] },
 };
+// Errors worth stepping to the next model on: model gone (404/400), busy (429/502/503).
+// A bad key (401/403) is NOT retried — the user has to fix it.
+function retryable(status){ return [400,404,429,502,503].includes(status); }
 function aiCfg(){ try { return JSON.parse(localStorage.getItem("ggm_ai")||"null"); } catch(e){ return null; } }
 function aiReady(){ const c=aiCfg(); return !!(c&&c.key); }
 function openAiModal(){
@@ -448,17 +456,32 @@ function saveAi(){
 async function runPrompt(prompt, outEl, btn){
   const c=aiCfg(); if(!c||!c.key){ openAiModal(); return; }
   const p=PROVIDERS[c.provider]||PROVIDERS.openrouter;
-  const model=c.model||p.model;
+  // user's own model first (if set), then the provider's self-healing chain
+  const chain=[...new Set([c.model, ...p.models].filter(Boolean))];
   outEl.classList.add("on"); outEl.textContent="⏳ Running on your free AI…"; btn.disabled=true;
+  let lastErr=null;
   try {
-    const res=await fetch(p.url,{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+c.key},
-      body:JSON.stringify({model,messages:[{role:"user",content:prompt}]})});
-    if(!res.ok){ const t=await res.text(); throw new Error("HTTP "+res.status+" — "+t.slice(0,200)); }
-    const j=await res.json();
-    const txt=(j.choices&&j.choices[0]&&j.choices[0].message&&j.choices[0].message.content)||JSON.stringify(j).slice(0,500);
-    outEl.textContent=txt;
+    for(const model of chain){
+      let res;
+      try {
+        res=await fetch(p.url,{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+c.key},
+          body:JSON.stringify({model,messages:[{role:"user",content:prompt}]})});
+      } catch(netErr){ lastErr=netErr; continue; }
+      if(!res.ok){
+        const t=await res.text();
+        lastErr=new Error("HTTP "+res.status+" — "+t.slice(0,200));
+        if(retryable(res.status)) continue;   // model gone or busy → next in chain
+        throw lastErr;                        // bad key etc. → stop, tell the user
+      }
+      const j=await res.json();
+      const txt=(j.choices&&j.choices[0]&&j.choices[0].message&&j.choices[0].message.content)||JSON.stringify(j).slice(0,500);
+      const used=(j.model||model);
+      outEl.textContent=txt+"\n\n— answered by "+used;
+      return;
+    }
+    throw lastErr||new Error("no model answered");
   } catch(e){
-    outEl.textContent="⚠️ Couldn't run: "+e.message+"\n\nTip: check your key/model in ⚡ Free AI setup, or just Copy the prompt and paste it into any free AI.";
+    outEl.textContent="⚠️ Couldn't run: "+e.message+"\n\nTip: check your key in ⚡ Free AI setup, or just Copy the prompt and paste it into any free AI.";
   } finally { btn.disabled=false; }
 }
 // deterministic "move of the week" — rotates by ISO week, no randomness
