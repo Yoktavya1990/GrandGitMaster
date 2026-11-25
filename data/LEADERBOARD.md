@@ -1,6 +1,6 @@
 # 👑 GrandGitMaster Leaderboard
 
-*The best Git repo for anything — auto-ranked by [the Ringer](../README.md#the-ringer). Updated 2026-11-25 08:38 UTC.*
+*The best Git repo for anything — auto-ranked by [the Ringer](../README.md#the-ringer). Updated 2026-11-25 21:45 UTC.*
 
 ## Category Kings
 
@@ -12,7 +12,7 @@
 | 👑 | web-dev | [vercel/next.js](https://github.com/vercel/next.js) | **95.0** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 MIT licensed · 🌱 Beginner friendly |
 | 👑 | data-ml | [pytorch/pytorch](https://github.com/pytorch/pytorch) | **95.0** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 Other licensed · 🌱 Beginner friendly |
 | 👑 | devtools | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | **94.4** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 MIT licensed · 🌱 Beginner friendly |
-| 👑 | ai-agents | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | **93.9** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 Apache-2.0 licensed · 🌱 Beginner friendly |
+| 👑 | ai-agents | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | **94.0** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 Apache-2.0 licensed · 🌱 Beginner friendly |
 | 👑 | automation | [n8n-io/n8n](https://github.com/n8n-io/n8n) | **90.0** | 👑 Legendary | ✅ Actively maintained · 📜 Other licensed |
 | 👑 | ai-media | [comfyanonymous/comfyui](https://github.com/Comfy-Org/ComfyUI) | **90.0** | 👑 Legendary | ✅ Actively maintained · 📜 GPL-3.0 licensed |
 | 👑 | self-hosted | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | **89.1** | 👑 Legendary | 🚀 One-click ready · ✅ Actively maintained · 📜 MIT licensed · 🌱 Beginner friendly |
@@ -27,16 +27,16 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [vercel/next.js](https://github.com/vercel/next.js) | 95.0 | 👑 Legendary | 143686 |
-| 2 | [immich-app/immich](https://github.com/immich-app/immich) | 92.7 | 👑 Legendary | 120061 |
-| 3 | [facebook/react](https://github.com/react/react) | 88.0 | 👑 Legendary | 252894 |
-| 4 | [leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 87.8 | 👑 Legendary | 121275 |
-| 5 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 85.2 | 👑 Legendary | 53207 |
-| 6 | [davidhdev/react-bits](https://github.com/DavidHDev/react-bits) | 85.2 | 👑 Legendary | 52659 |
-| 7 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 85.0 | 👑 Legendary | 21643 |
+| 1 | [vercel/next.js](https://github.com/vercel/next.js) | 95.0 | 👑 Legendary | 143720 |
+| 2 | [immich-app/immich](https://github.com/immich-app/immich) | 92.7 | 👑 Legendary | 120103 |
+| 3 | [facebook/react](https://github.com/react/react) | 88.0 | 👑 Legendary | 252960 |
+| 4 | [leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 87.8 | 👑 Legendary | 121522 |
+| 5 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 85.2 | 👑 Legendary | 53231 |
+| 6 | [davidhdev/react-bits](https://github.com/DavidHDev/react-bits) | 85.2 | 👑 Legendary | 52698 |
+| 7 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 85.0 | 👑 Legendary | 21707 |
 | 8 | [carbon-app/carbon](https://github.com/carbon-app/carbon) | 83.0 | 🥇 Excellent | 36147 |
-| 9 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | 82.9 | 🥇 Excellent | 17979 |
-| 10 | [xiaoyouchr/ghost-downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 81.8 | 🥇 Excellent | 17721 |
+| 9 | [xiaoyouchr/ghost-downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 81.9 | 🥇 Excellent | 18167 |
+| 10 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 81.0 | 🥇 Excellent | 565522 |
 
 </details>
 
@@ -44,33 +44,33 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 100.0 | 👑 Legendary | 159491 |
-| 2 | [tracer-cloud/opensre](https://github.com/Tracer-Cloud/opensre) | 94.2 | 👑 Legendary | 15308 |
-| 3 | [ollama/ollama](https://github.com/ollama/ollama) | 93.0 | 👑 Legendary | 188055 |
-| 4 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 92.0 | 👑 Legendary | 136190 |
-| 5 | [vas3k/taxhacker](https://github.com/vas3k/TaxHacker) | 89.8 | 👑 Legendary | 6902 |
-| 6 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 87.0 | 👑 Legendary | 149964 |
-| 7 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 85.1 | 👑 Legendary | 70581 |
-| 8 | [significant-gravitas/autogpt](https://github.com/Significant-Gravitas/AutoGPT) | 85.0 | 👑 Legendary | 188179 |
-| 9 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 84.4 | 🥇 Excellent | 12537 |
-| 10 | [elementalsouls/claude-bughunter](https://github.com/elementalsouls/Claude-BugHunter) | 83.1 | 🥇 Excellent | 21994 |
+| 1 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 100.0 | 👑 Legendary | 159554 |
+| 2 | [tracer-cloud/opensre](https://github.com/Tracer-Cloud/opensre) | 94.3 | 👑 Legendary | 15488 |
+| 3 | [ollama/ollama](https://github.com/ollama/ollama) | 93.0 | 👑 Legendary | 188122 |
+| 4 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 92.0 | 👑 Legendary | 136263 |
+| 5 | [vas3k/taxhacker](https://github.com/vas3k/TaxHacker) | 89.8 | 👑 Legendary | 6904 |
+| 6 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 87.0 | 👑 Legendary | 149990 |
+| 7 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 85.2 | 👑 Legendary | 70896 |
+| 8 | [significant-gravitas/autogpt](https://github.com/Significant-Gravitas/AutoGPT) | 85.0 | 👑 Legendary | 188189 |
+| 9 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 84.4 | 🥇 Excellent | 12634 |
+| 10 | [elementalsouls/claude-bughunter](https://github.com/elementalsouls/Claude-BugHunter) | 83.2 | 🥇 Excellent | 22840 |
 
 </details>
 
-<details><summary><b>ai-agents</b> (14 repos)</summary>
+<details><summary><b>ai-agents</b> (15 repos)</summary>
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 93.9 | 👑 Legendary | 56167 |
-| 2 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 93.0 | 👑 Legendary | 121981 |
-| 3 | [crewaiinc/crewai](https://github.com/crewAIInc/crewAI) | 86.8 | 👑 Legendary | 61244 |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | 85.0 | 👑 Legendary | 326102 |
-| 5 | [huginn/huginn](https://github.com/huginn/huginn) | 84.6 | 🥇 Excellent | 50633 |
-| 6 | [ifixai-ai/ifixai](https://github.com/ifixai-ai/iFixAi) | 84.6 | 🥇 Excellent | 47262 |
-| 7 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 81.8 | 🥇 Excellent | 14967 |
-| 8 | [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) | 81.8 | 🥇 Excellent | 5458 |
-| 9 | [meta/astryx](https://github.com/meta/astryx) | 81.1 | 🥇 Excellent | 32960 |
-| 10 | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 80.6 | 🥇 Excellent | 10845 |
+| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 94.0 | 👑 Legendary | 56330 |
+| 2 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 93.0 | 👑 Legendary | 122063 |
+| 3 | [crewaiinc/crewai](https://github.com/crewAIInc/crewAI) | 86.8 | 👑 Legendary | 61261 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | 85.0 | 👑 Legendary | 326540 |
+| 5 | [huginn/huginn](https://github.com/huginn/huginn) | 84.6 | 🥇 Excellent | 50641 |
+| 6 | [ifixai-ai/ifixai](https://github.com/ifixai-ai/iFixAi) | 84.6 | 🥇 Excellent | 47348 |
+| 7 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 81.8 | 🥇 Excellent | 15073 |
+| 8 | [eugeniughelbur/obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain) | 81.8 | 🥇 Excellent | 5464 |
+| 9 | [meta/astryx](https://github.com/meta/astryx) | 81.1 | 🥇 Excellent | 33095 |
+| 10 | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 80.6 | 🥇 Excellent | 11063 |
 
 </details>
 
@@ -78,15 +78,15 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 99.6 | 👑 Legendary | 87795 |
-| 2 | [d4vinci/scrapling](https://github.com/D4Vinci/Scrapling) | 93.0 | 👑 Legendary | 105640 |
-| 3 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 90.0 | 👑 Legendary | 209294 |
-| 4 | [scrapegraphai/scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 89.4 | 👑 Legendary | 32928 |
-| 5 | [nanmicoder/mediacrawler](https://github.com/NanmiCoder/MediaCrawler) | 89.3 | 👑 Legendary | 71774 |
-| 6 | [microsoft/playwright](https://github.com/microsoft/playwright) | 87.6 | 👑 Legendary | 101022 |
-| 7 | [getmaxun/maxun](https://github.com/getmaxun/maxun) | 87.3 | 👑 Legendary | 18559 |
-| 8 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | 87.1 | 👑 Legendary | 65581 |
-| 9 | [apify/crawlee](https://github.com/apify/crawlee) | 83.2 | 🥇 Excellent | 26545 |
+| 1 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 99.6 | 👑 Legendary | 87893 |
+| 2 | [d4vinci/scrapling](https://github.com/D4Vinci/Scrapling) | 93.0 | 👑 Legendary | 105770 |
+| 3 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 90.0 | 👑 Legendary | 209944 |
+| 4 | [scrapegraphai/scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 89.4 | 👑 Legendary | 32939 |
+| 5 | [nanmicoder/mediacrawler](https://github.com/NanmiCoder/MediaCrawler) | 89.3 | 👑 Legendary | 71793 |
+| 6 | [microsoft/playwright](https://github.com/microsoft/playwright) | 87.6 | 👑 Legendary | 101067 |
+| 7 | [getmaxun/maxun](https://github.com/getmaxun/maxun) | 87.3 | 👑 Legendary | 18562 |
+| 8 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | 87.1 | 👑 Legendary | 65616 |
+| 9 | [apify/crawlee](https://github.com/apify/crawlee) | 83.2 | 🥇 Excellent | 26578 |
 | 10 | [gocolly/colly](https://github.com/gocolly/colly) | 76.2 | 🥇 Excellent | 25607 |
 
 </details>
@@ -95,33 +95,32 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | 94.4 | 👑 Legendary | 15748 |
-| 2 | [toeverything/affine](https://github.com/toeverything/AFFiNE) | 93.9 | 👑 Legendary | 78158 |
-| 3 | [junegunn/fzf](https://github.com/junegunn/fzf) | 93.4 | 👑 Legendary | 84443 |
-| 4 | [cli/cli](https://github.com/cli/cli) | 90.3 | 👑 Legendary | 47194 |
-| 5 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 90.1 | 👑 Legendary | 87757 |
-| 6 | [chromedevtools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 86.1 | 👑 Legendary | 59270 |
-| 7 | [sharkdp/bat](https://github.com/sharkdp/bat) | 84.3 | 🥇 Excellent | 61467 |
-| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 83.5 | 🥇 Excellent | 72416 |
-| 9 | [danielmiessler/seclists](https://github.com/danielmiessler/SecLists) | 81.4 | 🥇 Excellent | 74944 |
-| 10 | [hkuds/cli-anything](https://github.com/HKUDS/CLI-Anything) | 80.5 | 🥇 Excellent | 65167 |
+| 1 | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | 94.4 | 👑 Legendary | 16105 |
+| 2 | [toeverything/affine](https://github.com/toeverything/AFFiNE) | 93.9 | 👑 Legendary | 78430 |
+| 3 | [junegunn/fzf](https://github.com/junegunn/fzf) | 93.4 | 👑 Legendary | 84482 |
+| 4 | [cli/cli](https://github.com/cli/cli) | 90.3 | 👑 Legendary | 47206 |
+| 5 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 90.1 | 👑 Legendary | 87826 |
+| 6 | [chromedevtools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 86.1 | 👑 Legendary | 59340 |
+| 7 | [sharkdp/bat](https://github.com/sharkdp/bat) | 84.3 | 🥇 Excellent | 61505 |
+| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 83.5 | 🥇 Excellent | 72927 |
+| 9 | [danielmiessler/seclists](https://github.com/danielmiessler/SecLists) | 81.4 | 🥇 Excellent | 74957 |
+| 10 | [hkuds/cli-anything](https://github.com/HKUDS/CLI-Anything) | 80.5 | 🥇 Excellent | 65613 |
 
 </details>
 
-<details><summary><b>other</b> (11 repos)</summary>
+<details><summary><b>other</b> (9 repos)</summary>
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [we-promise/sure](https://github.com/we-promise/sure) | 86.3 | 👑 Legendary | 17829 |
-| 2 | [facefusion/facefusion](https://github.com/facefusion/facefusion) | 83.7 | 🥇 Excellent | 30812 |
-| 3 | [wan-video/wan2.1](https://github.com/Wan-Video/Wan2.1) | 74.2 | 🥇 Excellent | 17491 |
-| 4 | [tencent-hunyuan/hunyuanvideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 73.4 | 🥇 Excellent | 12829 |
-| 5 | [kwaivgi/liveportrait](https://github.com/KlingAIResearch/LivePortrait) | 69.8 | 🥈 Solid | 19571 |
-| 6 | [pookjw/hermesenabler](https://github.com/pookjw/HermesEnabler) | 66.8 | 🥈 Solid | 2501 |
-| 7 | [stability-ai/generative-models](https://github.com/Stability-AI/generative-models) | 65.9 | 🥈 Solid | 27344 |
-| 8 | [mawlicious/bo3mac](https://github.com/mawlicious/bo3mac) | 55.5 | 🥈 Solid | 13 |
-| 9 | [samcorcos/legatum](https://github.com/samcorcos/legatum) | 53.1 | 🥉 Decent | 42 |
-| 10 | [sightmachine/openopc](https://github.com/sightmachine/OpenOPC) | 35.6 | 🧪 Experimental | 103 |
+| 1 | [we-promise/sure](https://github.com/we-promise/sure) | 86.3 | 👑 Legendary | 17914 |
+| 2 | [facefusion/facefusion](https://github.com/facefusion/facefusion) | 83.7 | 🥇 Excellent | 30819 |
+| 3 | [wan-video/wan2.1](https://github.com/Wan-Video/Wan2.1) | 74.2 | 🥇 Excellent | 17492 |
+| 4 | [tencent-hunyuan/hunyuanvideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) | 73.4 | 🥇 Excellent | 12832 |
+| 5 | [kwaivgi/liveportrait](https://github.com/KlingAIResearch/LivePortrait) | 69.8 | 🥈 Solid | 19575 |
+| 6 | [pookjw/hermesenabler](https://github.com/pookjw/HermesEnabler) | 66.8 | 🥈 Solid | 2514 |
+| 7 | [stability-ai/generative-models](https://github.com/Stability-AI/generative-models) | 65.9 | 🥈 Solid | 27343 |
+| 8 | [xoxorwr/pw-loudness-eq](https://github.com/xoxorwr/pw-loudness-eq) | 54.4 | 🥉 Decent | 153 |
+| 9 | [sightmachine/openopc](https://github.com/sightmachine/OpenOPC) | 35.6 | 🧪 Experimental | 103 |
 
 </details>
 
@@ -129,11 +128,11 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [comfyanonymous/comfyui](https://github.com/Comfy-Org/ComfyUI) | 90.0 | 👑 Legendary | 148524 |
-| 2 | [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 78.0 | 🥇 Excellent | 165374 |
-| 3 | [lightricks/ltx-video](https://github.com/Lightricks/LTX-Video) | 78.0 | 🥇 Excellent | 11483 |
-| 4 | [coqui-ai/tts](https://github.com/coqui-ai/TTS) | 71.8 | 🥇 Excellent | 46279 |
-| 5 | [rvc-project/retrieval-based-voice-conversion-webui](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | 67.3 | 🥈 Solid | 39298 |
+| 1 | [comfyanonymous/comfyui](https://github.com/Comfy-Org/ComfyUI) | 90.0 | 👑 Legendary | 148602 |
+| 2 | [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 78.0 | 🥇 Excellent | 165380 |
+| 3 | [lightricks/ltx-video](https://github.com/Lightricks/LTX-Video) | 78.0 | 🥇 Excellent | 11493 |
+| 4 | [coqui-ai/tts](https://github.com/coqui-ai/TTS) | 71.8 | 🥇 Excellent | 46281 |
+| 5 | [rvc-project/retrieval-based-voice-conversion-webui](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | 67.3 | 🥈 Solid | 39301 |
 | 6 | [comfyanonymous/comfyui_examples](https://github.com/comfyanonymous/ComfyUI_examples) | 61.3 | 🥈 Solid | 4712 |
 
 </details>
@@ -142,10 +141,10 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | 98.2 | 👑 Legendary | 44984 |
-| 2 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 85.0 | 👑 Legendary | 501296 |
-| 3 | [dream-num/univer](https://github.com/dream-num/univer) | 84.1 | 🥇 Excellent | 31771 |
-| 4 | [hyperliquid-dex/hyperliquid-python-sdk](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) | 60.3 | 🥈 Solid | 1892 |
+| 1 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | 98.2 | 👑 Legendary | 44991 |
+| 2 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 85.0 | 👑 Legendary | 501425 |
+| 3 | [dream-num/univer](https://github.com/dream-num/univer) | 84.1 | 🥇 Excellent | 31844 |
+| 4 | [hyperliquid-dex/hyperliquid-python-sdk](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) | 72.3 | 🥇 Excellent | 1891 |
 | 5 | [venelinkochev/apifinder](https://github.com/venelinkochev/apifinder) | 49.8 | 🥉 Decent | 23 |
 
 </details>
@@ -154,11 +153,11 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | 89.1 | 👑 Legendary | 5334 |
-| 2 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 85.0 | 👑 Legendary | 340301 |
-| 3 | [bitwarden/server](https://github.com/bitwarden/server) | 81.8 | 🥇 Excellent | 20722 |
-| 4 | [hatchet-dev/brickie](https://github.com/hatchet-dev/brickie) | 72.4 | 🥇 Excellent | 126 |
-| 5 | [sadservers/sadservers](https://github.com/SadServers/sadservers) | 65.7 | 🥈 Solid | 3106 |
+| 1 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | 89.1 | 👑 Legendary | 5335 |
+| 2 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 85.0 | 👑 Legendary | 340457 |
+| 3 | [bitwarden/server](https://github.com/bitwarden/server) | 81.8 | 🥇 Excellent | 20725 |
+| 4 | [hatchet-dev/brickie](https://github.com/hatchet-dev/brickie) | 72.5 | 🥇 Excellent | 131 |
+| 5 | [sadservers/sadservers](https://github.com/SadServers/sadservers) | 65.7 | 🥈 Solid | 3108 |
 
 </details>
 
@@ -166,10 +165,21 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 90.0 | 👑 Legendary | 212071 |
-| 2 | [stablyai/orca](https://github.com/stablyai/orca) | 87.9 | 👑 Legendary | 136847 |
-| 3 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 83.9 | 🥇 Excellent | 74587 |
-| 4 | [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 68.0 | 🥈 Solid | 7299 |
+| 1 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 90.0 | 👑 Legendary | 212126 |
+| 2 | [stablyai/orca](https://github.com/stablyai/orca) | 87.9 | 👑 Legendary | 137848 |
+| 3 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 84.0 | 🥇 Excellent | 75031 |
+| 4 | [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 68.0 | 🥈 Solid | 7308 |
+
+</details>
+
+<details><summary><b>data-ml</b> (4 repos)</summary>
+
+| # | Repo | Score | Verdict | ⭐ |
+|---|------|------:|---------|---:|
+| 1 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 95.0 | 👑 Legendary | 105745 |
+| 2 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 86.5 | 👑 Legendary | 50637 |
+| 3 | [google-research/google-research](https://github.com/google-research/google-research) | 82.8 | 🥇 Excellent | 39411 |
+| 4 | [xinntao/real-esrgan](https://github.com/xinntao/Real-ESRGAN) | 58.0 | 🥈 Solid | 37654 |
 
 </details>
 
@@ -177,30 +187,21 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [ebookfoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 85.0 | 👑 Legendary | 402242 |
+| 1 | [ebookfoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 85.0 | 👑 Legendary | 402284 |
 | 2 | [rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets) | 75.7 | 🥇 Excellent | 14492 |
-| 3 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 75.0 | 🥇 Excellent | 542507 |
-| 4 | [opentalker/sadtalker](https://github.com/OpenTalker/SadTalker) | 56.4 | 🥈 Solid | 14221 |
+| 3 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 75.0 | 🥇 Excellent | 542781 |
+| 4 | [opentalker/sadtalker](https://github.com/OpenTalker/SadTalker) | 56.4 | 🥈 Solid | 14224 |
 
 </details>
 
-<details><summary><b>data-ml</b> (3 repos)</summary>
+<details><summary><b>mobile</b> (4 repos)</summary>
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 95.0 | 👑 Legendary | 105716 |
-| 2 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 86.5 | 👑 Legendary | 50626 |
-| 3 | [xinntao/real-esrgan](https://github.com/xinntao/Real-ESRGAN) | 58.0 | 🥈 Solid | 37644 |
-
-</details>
-
-<details><summary><b>mobile</b> (3 repos)</summary>
-
-| # | Repo | Score | Verdict | ⭐ |
-|---|------|------:|---------|---:|
-| 1 | [facebook/react-native](https://github.com/react/react-native) | 88.0 | 👑 Legendary | 126999 |
-| 2 | [flutter/flutter](https://github.com/flutter/flutter) | 85.0 | 👑 Legendary | 181478 |
-| 3 | [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | 75.4 | 🥇 Excellent | 6095 |
+| 1 | [facebook/react-native](https://github.com/react/react-native) | 88.0 | 👑 Legendary | 127002 |
+| 2 | [flutter/flutter](https://github.com/flutter/flutter) | 85.0 | 👑 Legendary | 181503 |
+| 3 | [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | 75.5 | 🥇 Excellent | 6426 |
+| 4 | [shobhitagarwal1612/buyhatke](https://github.com/shobhitagarwal1612/Buyhatke) | 17.3 | 🧪 Experimental | 1 |
 
 </details>
 
@@ -208,7 +209,7 @@
 
 | # | Repo | Score | Verdict | ⭐ |
 |---|------|------:|---------|---:|
-| 1 | [nginx/nginx](https://github.com/nginx/nginx) | 82.4 | 🥇 Excellent | 33282 |
+| 1 | [nginx/nginx](https://github.com/nginx/nginx) | 82.4 | 🥇 Excellent | 33350 |
 
 </details>
 
